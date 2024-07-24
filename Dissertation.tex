@@ -1,0 +1,115 @@
+\documentclass[letterpaper, 12pt, oneside]{book}
+% \documentclass[letterpaper, 12pt]{book}
+
+% 1" margins, page numbers >= 3/4" from edge
+\usepackage[margin = 1in, includehead, footskip=0.25in]{geometry}
+
+% double-spaced (except bibliography)
+\usepackage{setspace}
+\doublespacing
+
+% all text should be 12pt % she relaxed this constraint
+% these may not be necessary for all students/disciplines
+% \let\oldfootnotesize\footnotesize
+% \renewcommand{\footnotesize}{\normalsize}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% include references in table of contents
+% http://tex.stackexchange.com/questions/71129/bibliography-in-table-of-contents
+% \usepackage[nottoc, notlot, notlof]{tocbibind}
+\usepackage{tocbibind}
+
+% remaining packages
+% these may not be necessary for all students/disciplines
+\usepackage{url}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{tikz}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{graphicx}
+\usepackage{import} % -import- facilitates relative file references within each file
+\usepackage[round]{natbib}
+
+% for eps to pdf conversion
+% these may not be necessary for all students/disciplines
+\usepackage{epstopdf}
+\epstopdfsetup{update} 
+
+% pdf metadata
+\usepackage[pdfauthor={My Full Name},
+    pdftitle={Title},
+    hidelinks
+]{hyperref}
+
+% dissertation
+\begin{document}
+
+% front matter
+\frontmatter
+
+% dissertation guide requires that title page is part of page count, but has no page number
+% http://tex.stackexchange.com/questions/66562/how-to-set-page-counter-by-skipping-first-page
+\include{Title_page}
+\setcounter{page}{2}
+
+% front matter
+\include{Copyright_page}
+\include{Approval_page}
+\include{Abstract}
+\include{Acknowledgments}
+
+% tables of contents
+\tableofcontents
+\listoftables
+\listoffigures
+
+% content
+\mainmatter
+
+% chapter one
+\chapter{One}
+\chaptermark{One} % short title in page header
+\input{../../Research/One/Paper/Macros}
+\input{../../Research/One/Paper/Content}
+\clearpage
+\import{../../Research/One/Paper/}{Tables}
+
+% chapter two
+\chapter{Two}
+\chaptermark{Two}
+\input{../../Research/Two/Paper/Macros}
+\input{../../Research/Two/Paper/Content}
+\clearpage
+\import{../../Research/Two/Paper/}{Tables}
+
+% chapter three
+\chapter{Three}
+\chaptermark{Three}
+\input{../../Research/Three/Paper/Macros}
+\input{../../Research/Three/Paper/Content}
+\clearpage
+\import{../../Research/Three/Paper/}{Tables}
+
+% chapter four
+\chapter{Four}
+\chaptermark{Four}
+\input{../../Research/Four/Paper/Macros}
+\input{../../Research/Four/Paper/Content}
+\clearpage
+\import{../../Research/Four/Paper/}{Tables}
+\clearpage
+\import{../../Research/Four/Paper/}{Tables_appendix}
+\clearpage
+\import{../../Research/Four/Paper/}{Figures}
+
+% end matter
+\singlespacing
+\bibliographystyle{apalike}
+\bibliography{library}
+
+\end{document}

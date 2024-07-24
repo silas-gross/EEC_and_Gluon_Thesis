@@ -1,0 +1,18 @@
+[0] Config.pm:307> INFO - This is Biber 2.17
+[0] Config.pm:310> INFO - Logfile is 'Skadi_Thesis_Draft.blg'
+[61] biber:340> INFO - === Tue Jul  2, 2024, 10:30:25
+[72] Biber.pm:418> INFO - Reading 'Skadi_Thesis_Draft.bcf'
+[122] Biber.pm:972> INFO - Found 2 citekeys in bib section 0
+[133] Biber.pm:4383> INFO - Processing section 0
+[144] Biber.pm:4574> INFO - Looking for bibtex file 'thesis_refs.bib' for section 0
+[147] bibtex.pm:1713> INFO - LaTeX decoding ...
+[183] bibtex.pm:1518> INFO - Found BibTeX data source 'thesis_refs.bib'
+[224] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[224] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[224] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[224] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[226] bbl.pm:654> INFO - Writing 'Skadi_Thesis_Draft.bbl' with encoding 'UTF-8'
+[228] bbl.pm:757> INFO - Output to Skadi_Thesis_Draft.bbl
+[228] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Dokshitzer1997' is not an integer - this will probably not sort properly.
+[228] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'
+[228] Biber.pm:132> INFO - WARNINGS: 2

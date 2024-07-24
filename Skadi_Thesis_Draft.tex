@@ -1,0 +1,84 @@
+\documentclass[letterpaper, 12pt, oneside]{book}
+\usepackage[margin = 1in, includehead, footskip=0.25in]{geometry}
+\usepackage{setspace}
+\doublespacing
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{lscape}
+\usepackage{import}
+\usepackage[style=phys]{biblatex}
+\bibliography{thesis_refs}
+%\addbibresource{thesis_refs.bib}
+\usepackage{lineno}
+\linenumbers
+\usepackage[pdfauthor={My Full Name},
+    pdftitle={Title},
+    hidelinks
+]{hyperref}
+\newtheorem{lemma}{Lemma}[section]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{corolary}{Corolary}[section]
+%\author{Skadi K Grossberndt}
+%\title{Energy Correlators as a probe of the hard process in Run 24 $p-p$ collisions at $\sqrt{s}=200$ $GeV$ with the sPHENIX detector at RHIC}
+%\affil{Graduate Center and Baruch College, CUNY}
+\begin{document}
+%\maketitle
+\frontmatter
+\include{Title_page}
+\setcounter{page}{2}
+\include{Copyright_page}
+\include{Approval_page}
+\include{Abstract}
+\include{Acknowledgements}
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\mainmatter
+\chapter{Literature Review}
+\label{ch:LR}
+\include{Lit_Review} 
+\part{Hardware: The Detector and Simulations}
+
+\chapter{RHIC and BNL}
+\chapter{The sPHENIX detector}
+\chapter{Monte Carlo Simulations}
+\chapter{Determining Backgrounds and Errors}
+\part{Technicalities: The finer points of theory and computing}
+\chapter{The Energy Correlator and the primary vertex}
+\chapter{Jets in Vacuum and the PDF}
+\section{Jet Identification Algorithms}
+As discused in chapter \ref{ch:LR}, there are a variety of jet finding algorithims that prioritize different theoretical aspacts of the underlying physics while being experimentally realizable \cite{Dokshitzer1997} \cite{Atkin2015}. 
+
+In general, a jet identification algorithim needs to be IRC safe. 
+That is, the jet object needs to display invariance in the Infrared (IR) and Collinear regimes, managing real-virtual cancellation and keeping results meaningful for emmission and splitting respectively. 
+
+\chapter{So exactly how intelligent is AI}
+\chapter{Proof Solving and Validation as Quality Control Mechanisms}
+\part{Experimental Output: The Main Event}
+\chapter{So is sPHENIX actually working?}
+\chapter{Measuring the Energy Correlator}
+\chapter{The Power of the ENC: $\alpha_s$ at the few GeV scale}
+\chapter{Event-by-Event distinguishing}
+\chapter{Comparison is the Theft of Joy: What does the LHC say, and how about STAR?}
+\chaptermark{LHC and STAR Results}
+\chapter{Entaglement and other Lofty Goals}
+\part{Wrapping it all up}
+\chapter{Observable prospects for Run 25 and the EIC}
+\chapter{Remaining Questions}
+\chapter{Implementation and application for the remaining sPHENIX data}
+\chaptermark{Future Work}
+\singlespacing
+\printbibliography
+%\bibliographystyle{apalike}
+%\bibliography{thesis}
+\end{document}

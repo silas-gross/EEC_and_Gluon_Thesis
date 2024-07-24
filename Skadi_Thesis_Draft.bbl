@@ -1,0 +1,120 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Dokshitzer1997}{article}{}
+      \name{author}{4}{}{%
+        {{hash=34e77053d916c8695d8d49d3a856026a}{%
+           family={Dokshitzer},
+           familyi={D\bibinitperiod},
+           given={Yu.\bibnamedelimi L.},
+           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0d677a1fffdb46967ad27ab7b761fcfc}{%
+           family={Leder},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cdf04ed3907aca50a6b25ca75808870c}{%
+           family={Moretti},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fab4c5289b2146af0bcda20af58ba567}{%
+           family={Webber},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{a21b42b01f81eab76d3de64798a7327a}
+      \strng{fullhash}{bc479da46db95806b05bc1ccc68e2f41}
+      \strng{bibnamehash}{bc479da46db95806b05bc1ccc68e2f41}
+      \strng{authorbibnamehash}{bc479da46db95806b05bc1ccc68e2f41}
+      \strng{authornamehash}{a21b42b01f81eab76d3de64798a7327a}
+      \strng{authorfullhash}{bc479da46db95806b05bc1ccc68e2f41}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate modifications to the $k_\perp$-clustering jet algorithm which preserve the advantages of the original Durham algorithm while reducing non-perturbative corrections and providing better resolution of jet substructure. We find that a simple change in the sequence of clustering (combining smaller-angle pairs first), together with the `freezing' of soft resolved jets, has beneficial effects.}
+      \field{day}{11}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP 9708:001,1997}
+      \field{month}{7}
+      \field{number}{08}
+      \field{title}{Better Jet Clustering Algorithms}
+      \field{volume}{1997}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{pages}{001\bibrangedash 001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/1997/08/001
+      \endverb
+      \verb{eprint}
+      \verb hep-ph/9707323
+      \endverb
+      \verb{file}
+      \verb :http\://arxiv.org/pdf/hep-ph/9707323v2:PDF
+      \endverb
+      \keyw{High Energy Physics - Phenomenology (hep-ph),High Energy Physics - Experiment (hep-ex),FOS: Physical sciences}
+      \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'}
+    \endentry
+    \entry{Atkin2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=fce4a38a4e42e93f3583547415725bb8}{%
+           family={Atkin},
+           familyi={A\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{fce4a38a4e42e93f3583547415725bb8}
+      \strng{fullhash}{fce4a38a4e42e93f3583547415725bb8}
+      \strng{bibnamehash}{fce4a38a4e42e93f3583547415725bb8}
+      \strng{authorbibnamehash}{fce4a38a4e42e93f3583547415725bb8}
+      \strng{authornamehash}{fce4a38a4e42e93f3583547415725bb8}
+      \strng{authorfullhash}{fce4a38a4e42e93f3583547415725bb8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1742-6596}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{10}
+      \field{title}{Review of jet reconstruction algorithms}
+      \field{volume}{645}
+      \field{year}{2015}
+      \field{pages}{012008}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/645/1/012008
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
