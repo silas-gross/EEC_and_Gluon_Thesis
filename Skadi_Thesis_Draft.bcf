@@ -2352,10 +2352,23 @@
     <bcf:datasource type="file" datatype="bibtex">thesis_refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Dokshitzer1997</bcf:citekey>
-    <bcf:citekey order="2">Atkin2015</bcf:citekey>
-    <bcf:citekey order="3">Dokshitzer1997</bcf:citekey>
-    <bcf:citekey order="4">Atkin2015</bcf:citekey>
+    <bcf:citekey order="1">Atkin2015</bcf:citekey>
+    <bcf:citekey order="2">QGP_droplets</bcf:citekey>
+    <bcf:citekey order="3">sPHENIX_TDR</bcf:citekey>
+    <bcf:citekey order="4">sPHENIX_whitepaper</bcf:citekey>
+    <bcf:citekey order="5">sPHENIX_physics_goals</bcf:citekey>
+    <bcf:citekey order="6">HCal_Calib</bcf:citekey>
+    <bcf:citekey order="7">tower_slope_hcal</bcf:citekey>
+    <bcf:citekey order="8">Dokshitzer1997</bcf:citekey>
+    <bcf:citekey order="9">Atkin2015</bcf:citekey>
+    <bcf:citekey order="10">Atkin2015</bcf:citekey>
+    <bcf:citekey order="11">QGP_droplets</bcf:citekey>
+    <bcf:citekey order="12">sPHENIX_TDR</bcf:citekey>
+    <bcf:citekey order="13">sPHENIX_whitepaper</bcf:citekey>
+    <bcf:citekey order="14">sPHENIX_physics_goals</bcf:citekey>
+    <bcf:citekey order="15">HCal_Calib</bcf:citekey>
+    <bcf:citekey order="16">tower_slope_hcal</bcf:citekey>
+    <bcf:citekey order="17">Dokshitzer1997</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

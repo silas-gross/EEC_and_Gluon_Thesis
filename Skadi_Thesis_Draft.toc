@@ -1,30 +1,36 @@
-\contentsline {paragraph}{Chapter 1}{iv}{section*.1}%
-\contentsline {paragraph}{Chapter 2}{iv}{section*.2}%
-\contentsline {paragraph}{Chapter 3}{iv}{section*.3}%
-\contentsline {paragraph}{Chapter 4}{iv}{section*.4}%
+\contentsline {paragraph}{Part 1: Hardware}{iv}{section*.1}%
+\contentsline {paragraph}{Part 2: Technicalities}{iv}{section*.2}%
+\contentsline {paragraph}{Part 3: Experimental Output}{v}{section*.3}%
 \contentsline {chapter}{\numberline {1}Literature Review}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Jets Definitions}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Jet Reconstruction Algorithims}{2}{subsection.1.1.1}%
 \contentsline {section}{\numberline {1.2}Jet Substucure Measurements}{2}{section.1.2}%
 \contentsline {section}{\numberline {1.3}N-Point Energy Correlator}{2}{section.1.3}%
 \contentsline {part}{I\hspace {1em}Hardware: The Detector and Simulations}{3}{part.1}%
-\contentsline {chapter}{\numberline {2}RHIC and BNL}{4}{chapter.2}%
-\contentsline {chapter}{\numberline {3}The sPHENIX detector}{5}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Monte Carlo Simulations}{6}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Determining Backgrounds and Errors}{7}{chapter.5}%
-\contentsline {part}{II\hspace {1em}Technicalities: The finer points of theory and computing}{8}{part.2}%
-\contentsline {chapter}{\numberline {6}The Energy Correlator and the primary vertex}{9}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Jets in Vacuum and the PDF}{10}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Jet Identification Algorithms}{10}{section.7.1}%
-\contentsline {chapter}{\numberline {8}So exactly how intelligent is AI}{11}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Proof Solving and Validation as Quality Control Mechanisms}{12}{chapter.9}%
-\contentsline {part}{III\hspace {1em}Experimental Output: The Main Event}{13}{part.3}%
-\contentsline {chapter}{\numberline {10}So is sPHENIX actually working?}{14}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Measuring the Energy Correlator}{15}{chapter.11}%
-\contentsline {chapter}{\numberline {12}The Power of the ENC: $\alpha _s$ at the few GeV scale}{16}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Event-by-Event distinguishing}{17}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Comparison is the Theft of Joy: What does the LHC say, and how about STAR?}{18}{chapter.14}%
-\contentsline {chapter}{\numberline {15}Entaglement and other Lofty Goals}{19}{chapter.15}%
-\contentsline {part}{IV\hspace {1em}Wrapping it all up}{20}{part.4}%
-\contentsline {chapter}{\numberline {16}Observable prospects for Run 25 and the EIC}{21}{chapter.16}%
-\contentsline {chapter}{\numberline {17}Remaining Questions}{22}{chapter.17}%
-\contentsline {chapter}{\numberline {18}Implementation and application for the remaining sPHENIX data}{23}{chapter.18}%
+\contentsline {chapter}{\numberline {2}The sPHENIX detector}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Calorimetery}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Hadronic Calorimeters}{5}{subsection.2.1.1}%
+\contentsline {subsubsection}{Calibration}{6}{section*.7}%
+\contentsline {subsection}{\numberline {2.1.2}Electromagnetic Calorimeter}{6}{subsection.2.1.2}%
+\contentsline {subsubsection}{Calibration}{6}{section*.8}%
+\contentsline {section}{\numberline {2.2}Tracking}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Event Characterization}{7}{section.2.3}%
+\contentsline {chapter}{\numberline {3}Monte Carlo Simulations}{8}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Determining Backgrounds and Errors}{9}{chapter.4}%
+\contentsline {part}{II\hspace {1em}Technicalities: The finer points of theory and computing}{10}{part.2}%
+\contentsline {chapter}{\numberline {5}The Energy Correlator and the primary vertex}{11}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Jets in Vacuum and the PDF}{12}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Jet Identification Algorithms}{12}{section.6.1}%
+\contentsline {chapter}{\numberline {7}So exactly how intelligent is AI}{13}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Proof Solving and Validation as Quality Control Mechanisms}{14}{chapter.8}%
+\contentsline {part}{III\hspace {1em}Experimental Output: The Main Event}{15}{part.3}%
+\contentsline {chapter}{\numberline {9}So is sPHENIX actually working?}{16}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Measuring the Energy Correlator}{17}{chapter.10}%
+\contentsline {chapter}{\numberline {11}The Power of the ENC: $\alpha _s$ at the few GeV scale}{18}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Event-by-Event distinguishing}{19}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Comparison is the Theft of Joy: What does the LHC say, and how about STAR?}{20}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Entaglement and other Lofty Goals}{21}{chapter.14}%
+\contentsline {part}{IV\hspace {1em}Wrapping it all up}{22}{part.4}%
+\contentsline {chapter}{\numberline {15}Observable prospects for Run 25 and the EIC}{23}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Remaining Questions}{24}{chapter.16}%
+\contentsline {chapter}{\numberline {17}Implementation and application for the remaining sPHENIX data}{25}{chapter.17}%
