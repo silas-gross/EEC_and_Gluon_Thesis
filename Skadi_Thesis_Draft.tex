@@ -50,17 +50,17 @@
 \part{Hardware: The Detector and Simulations}
 \chapter{The sPHENIX detector}
 The sPHENIX detector is part of the Relativistic Heavy Ion Collider (RHIC) complex at Brookhaven National Laboratories (BNL) in Upton, New York. 
-RHIC is one of two major circlular particle colliders in the world, the other of which is the Large Hadron Collider at CERN in Geneva, Switzerland. 
-Over the course of the sPHENIX experiment which will run from run 23 until RHIC ceases opperations after run 25, RHIC will be colliding gold nuclei and protons with run 23 having been dedicated to commissioning Au+Au running, 
-run 24 dedicated to p+p with three weeks of Au+Au for further tracking commisioning and run 25 dedicated to physics running in Au+Au collisions. 
+RHIC is one of two major circular particle colliders in the world, the other of which is the Large Hadron Collider at CERN in Geneva, Switzerland. 
+Over the course of the sPHENIX experiment which will run from run 23 until RHIC ceases operations after run 25, RHIC will be colliding gold nuclei and protons with run 23 having been dedicated to commissioning Au+Au running, 
+run 24 dedicated to p+p with three weeks of Au+Au for further tracking commissioning and run 25 dedicated to physics running in Au+Au collisions. 
 RHIC runs with a center of mass energy of $\sqrt{s} = 200 GeV$ for both protons and gold, and additionally is the sole collider that collides polarized protons, which allows for more in depth studies of spin physics. 
-At RHIC, sPHENIX's forerunner, the Pioneering High Energy Nuclear Interaction eXperiment (PHENIX), perfomed the first measurement of the Quark Gluon Plasma droplets \cite{QGP_droplets} in nuclei-nuclei collisions. 
+At RHIC, sPHENIX's forerunner, the Pioneering High Energy Nuclear Interaction eXperiment (PHENIX), performed the first measurement of the Quark Gluon Plasma droplets \cite{QGP_droplets} in nuclei-nuclei collisions. 
 
-sPHENIX is designed to offer significant upgrades to PHENIX, specifically provinding increased coverage with hadronic and electromagnetic calorimeters, increasing effectiveness in studies of jets and heavy flavor at mid-to-high Bjorken x \cite{sPHENIX_TDR}\cite{sPHENIX_whitepaper}\cite{sPHENIX_physics_goals}
-Broadly, sPHENIX can be broken into three categories of subystem: Calorimerters, Tracking and Event characterization.
-sPHENIX is constructed around a 4 Tesla superconducting magnet, cooled by liquid helium, which was previously used on the BABAR experiment at SLAC. 
+sPHENIX is designed to offer significant upgrades to PHENIX, specifically providing increased coverage with hadronic and electromagnetic calorimeters, increasing effectiveness in studies of jets and heavy flavor at mid-to-high Bjorken x \cite{sPHENIX_TDR}\cite{sPHENIX_whitepaper}\cite{sPHENIX_physics_goals}
+Broadly, sPHENIX can be broken into three categories of subsystem: Calorimeters, Tracking and Event characterization.
+sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liquid helium, which was previously used on the BABAR experiment at SLAC. 
 \begin{figure}
-	\includegraphics[scale=0.5]{sphenix_detector}
+	\includegraphics[scale=0.3]{sphenix_detector}
 	\caption{The sPHENIX detector. The Zero Degree Calorimeter is not picutred but is located further along the beam pipe.}
 	\label{fig:sphenix_detector}
 \end{figure}
@@ -69,49 +69,70 @@ sPHENIX is constructed around a 4 Tesla superconducting magnet, cooled by liquid
 		sPHENIX's power in jet physics comes in large part from its calorimeter systems, including two seperate hadronic calorimeters. 
 		The outer and inner hadronic calorimeter (OHCal and IHCal respectively) are both divided into 24 bins in $\eta$ with coverage of $|\eta| \leq 1.1$  and full $\varphi$ coverage with 64 bins in $\varphi$, grouped in $\varphi$ into 32 sectors in each calorimeter. 
 		Each hadronic calorimeter therefore has tower size of $\delta \eta = 0.092$ and $\delta \varphi=0.098$.  
-		The outer hadronic calorimeter is constructed of steel and sits outside of the magnet, with inner radius of $r=$ m and outer radius of $r=$ m. 
-		The inner hadronic calormeter is constructed of aluminum and sits just inside the magnet, with inner radus of $r=$ m and outer radius of $r=$ m. 
+		The outer hadronic calorimeter is constructed of steel and sits outside of the magnet, with inner radius of $r=1.82$ m and outer radius of $r=2.69$ m. 
+		The inner hadronic calormeter is constructed of aluminum and sits just inside the magnet, with inner radus of $r=1/16$ m and outer radius of $r=1.37$ m. 
 		Each tower corresponds to a readout board that sums readout from four scintillator paddles embeded into the calorimeter as show in fig. \ref{fig:hcal}. 
 		These interface boards form a single readout channel, and can be indvidually teste via a pulser system that injects charge into the interface board testing readback independent of scintillator response, and LED system that injects a fixed pulse of light into the scintilators to test behavior of the Silicon Photomultipliers (SiPMs). 
 		Output of each of these systems is shown in fig \ref{fig:hcal_tests}
 		\begin{figure}
 			%need to figure out how to do the subfigures for this 
-			\includegraphics{ihcal_pulser}
-			\includegraphics{ohcal_pulser}
-			\includegraphics{ihcal_led}
-			\includegraphics{ohcal_led}
+			%	\includegraphics{ihcal_pulser}
+			%\includegraphics{ohcal_pulser}
+			%\includegraphics{ihcal_led}
+			%\includegraphics{ohcal_led}
 			\caption{Figuring out the subfigs first. But Left Pulser and Right LED, top IHCAL both OHCAL}
 			\label{fig:hcal_tests}
 		\end{figure}
 		\subsubsection{Calibration}
 			The hadronic calorimeters were intially calibrated through use of cosmic ray muons, matching the spectra to Monte Carlo 
-			generated by EcoMug \cite{HCal_Calib}. 
+			generated through EcoMug and GEANT4 \cite{HCal_Calib}. 
 			This calibration is updated through out the run via continued cosmic ray studies in between physics data taking in addition
 			to ongoing work on in-situo calibrations using tower-slope methods \cite{tower_slope_hcal}. 
 			These calibrations have yeilded an average conversion factor for the OHCal of and the IHCal of %*put ing the factor here*%
 	\subsection{Electromagnetic Calorimeter}
 		Moving in one layer from the hadronic calorimeter, the Electromagnetic Calorimeter (EMCal) has the same coverage in $\eta-\varphi$ space,
 		but has 16 times as many towers with 96 bins in $\eta$ and 256 bins in $\varphi$. 
-		The EMCal is constructed of blocks of tungsten with embedded scintilationg fibers. 
+		The EMCal is constructed of blocks of tungsten with embedded scintilationg fibers, 
+		and had inner radius $r=0.9$ m and outer radius of $r=1.16$ m.
 		Similarly to the HCals, the EMCal is also equipped with a pulser and LED, although the increased number of towers and higher varaiblility 
 		in response requires that different pulse widths be used for seperate sets of towers to prevent saturation and clipping on the LED pulse.
 		\subsubsection{Calibration}
 			The EMCal was calibrated to the $\pi^0$ mass through the $\pi^0 \rightarrow \gamma \gamma$ decay channel with additional corrections
 			applied via the tower slope. 
 			The mean $m_{\pi^0}$ and width are used as quality assurance plots to monitor radiation damage to the EMCal on an ongoing basis.
+	\subsection{Zero Degree Calorimeter}
+		The Zero Degree Calorimeter (ZDC) is a small transverse energy hadron detector that positioned outside of the experiment hall, in the tunnels along the beam pipe, 18 m from he interaction point on both side.
+		The ZDC is used to detect spectator neutrons to allow for the calculation of multiplicity and event geometry, makind it an overlapping detector between the calorimeters and the event characterization \cite{sphenix_ZDC}.
+		The sPHENIX ZDC is one of two detectors that was preserved from PHENIX, with minor repairs and upgrades to improve running.
+		In pp collisions, the ZDC and the Minimum Bias detector
 
 \section{Tracking}
+	The sPHENIX tracking system consits of the Silicon vertexing detectors and the gas based trackers.
+	\subsection{INTT}
+	\subsection{Micromegas Vertex Detector}
+	The Micromegas vertex detector (MVTX) is a 
+	\subsection{Time Projection Chamber}
+	The Time Projection Chamber (TPC) 
+	\subsection{TPC Outer Tracker}
+	The TPC Outer Tracker (TPOT) was designed as a minimal add-on to improve tracking effeciency and resolution by providing additional track points. 
 \section{Event Characterization}
+	\subsection{sPhenix Event Plane Detector}
+	\subsection{Minimum Bias Detector}
+	The sPHENIX Minimum Bias Detector (MBD) is the other detector preserved from PHENIX, when it was called the Beam-Beam Counter (BBC). 
+	This detector is situated  
+\section{Triggers}
+	The sPHENIX detector has a number of triggers at its disposal to allow for online event type selections for the triggered readout system: the EMCal, the HCals, the ZDC, the MBD, the sEPD and--for run 2024--the TPC.
+	Starting in run 2024, available triggers are Minimum Bias 
 \chapter{Monte Carlo Simulations}
 \chapter{Determining Backgrounds and Errors}
 \part{Technicalities: The finer points of theory and computing}
 \chapter{The Energy Correlator and the primary vertex}
 \chapter{Jets in Vacuum and the PDF}
 \section{Jet Identification Algorithms}
-As discused in chapter \ref{ch:LR}, there are a variety of jet finding algorithims that prioritize different theoretical aspacts of the underlying physics while being experimentally realizable \cite{Dokshitzer1997} \cite{Atkin2015}. 
+As discussed in chapter \ref{ch:LR}, there are a variety of jet finding algorithms that prioritize different theoretical aspects of the underlying physics while being experimentally realizable \cite{Dokshitzer1997} \cite{Atkin2015}. 
 
-In general, a jet identification algorithim needs to be IRC safe. 
-That is, the jet object needs to display invariance in the Infrared (IR) and Collinear regimes, managing real-virtual cancellation and keeping results meaningful for emmission and splitting respectively. 
+In general, a jet identification algorithm needs to be IRC safe. 
+That is, the jet object needs to display invariance in the Infrared (IR) and Collinear regimes, managing real-virtual cancellation and keeping results meaningful for emission and splitting respectively. 
 
 \chapter{So exactly how intelligent is AI}
 \chapter{Proof Solving and Validation as Quality Control Mechanisms}
@@ -122,7 +143,7 @@ That is, the jet object needs to display invariance in the Infrared (IR) and Col
 \chapter{Event-by-Event distinguishing}
 \chapter{Comparison is the Theft of Joy: What does the LHC say, and how about STAR?}
 \chaptermark{LHC and STAR Results}
-\chapter{Entaglement and other Lofty Goals}
+\chapter{Entanglement and other Lofty Goals}
 \part{Wrapping it all up}
 \chapter{Observable prospects for Run 25 and the EIC}
 \chapter{Remaining Questions}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.21)  27 AUG 2024 13:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.21)  2 SEP 2024 11:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1052,7 +1052,42 @@ ld 'date' for entry 'Dokshitzer1997'.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
+(biblatex)                Bhattecherjee2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Fodor1990
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Gallicchio2011
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
 (biblatex)                HCal_Calib
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Jones1989
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Lima2017
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1066,14 +1101,14 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                sPHENIX_TDR
+(biblatex)                Salam2007
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                tower_slope_hcal
+(biblatex)                sPHENIX_TDR
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1167,177 +1202,144 @@ Chapter 1.
 ]
 \openout2 = `Lit_Review.aux'.
 
- (./Lit_Review.tex) [2
+ (./Lit_Review.tex
 
-] [3
+LaTeX Warning: Citation 'Salam2007' on page 2 undefined on input line 12.
+
+
+LaTeX Warning: Citation 'Jones1989' on page 2 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Fodor1990' on page 2 undefined on input line 16.
+
+
+LaTeX Warning: Citation 'Gallicchio2011' on page 2 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Lima2017' on page 2 undefined on input line 17.
+
+
+LaTeX Warning: Citation 'Bhattecherjee2017' on page 2 undefined on input line 1
+7.
+
+[2
+
+]) [3] [4
 
 
 
 ]
 Chapter 2.
 
-LaTeX Warning: Citation 'QGP_droplets' on page 4 undefined on input line 57.
+LaTeX Warning: Citation 'QGP_droplets' on page 5 undefined on input line 57.
 
 
-LaTeX Warning: Citation 'sPHENIX_TDR' on page 4 undefined on input line 59.
+LaTeX Warning: Citation 'sPHENIX_TDR' on page 5 undefined on input line 59.
 
-
-LaTeX Warning: Citation 'sPHENIX_whitepaper' on page 4 undefined on input line 
-59.
-
-
-! LaTeX Error: File `sphenix_detector' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 ...cludegraphics[scale=0.5]{sphenix_detector}
-                                                  
-? 
-
-Overfull \hbox (61.1933pt too wide) in paragraph at lines 59--67
-\OT1/cmr/m/n/12 stud-ies of jets and heavy fla-vor at mid-to-high Bjorken x [[]
-][[]][[]2[]]
- []
-
-[4
+<sphenix_detector.png, id=299, 1355.0625pt x 787.94376pt>
+File: sphenix_detector.png Graphic file (type png)
+<use sphenix_detector.png>
+Package pdftex.def Info: sphenix_detector.png  used on input line 63.
+(pdftex.def)             Requested size: 406.5219pt x 236.38495pt.
+[5
 
 ]
 
-LaTeX Warning: Reference `fig:hcal' on page 5 undefined on input line 74.
+LaTeX Warning: Reference `fig:hcal' on page 6 undefined on input line 74.
 
+[6 <./sphenix_detector.png>]
 
-! LaTeX Error: File `ihcal_pulser' not found.
+LaTeX Warning: Citation 'HCal_Calib' on page 7 undefined on input line 88.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.79 			\includegraphics{ihcal_pulser}
-                                      
-? 
+[7] [8]
+Overfull \hbox (1.09312pt too wide) in paragraph at lines 121--123
+\OT1/cmr/m/n/12 The sPHENIX Min-i-mum Bias De-tec-tor (MBD) is the other de-tec
+-tor pre-served from PHENIX,
+ []
 
-! LaTeX Error: File `ohcal_pulser' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.80 			\includegraphics{ohcal_pulser}
-                                      
-? 
-
-! LaTeX Error: File `ihcal_led' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.81 			\includegraphics{ihcal_led}
-                                   
-? 
-
-! LaTeX Error: File `ohcal_led' not found.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 			\includegraphics{ohcal_led}
-                                   
-? 
-[5]
-
-LaTeX Warning: Citation 'HCal_Calib' on page 6 undefined on input line 88.
-
-
-LaTeX Warning: Citation 'tower_slope_hcal' on page 6 undefined on input line 90
-.
-
-[6] [7]
+[9]
 Chapter 3.
-[8
+[10
 
 ]
 Chapter 4.
-[9
+[11
 
-] [10
+] [12
 
 ]
 Chapter 5.
-[11
-
-]
-Chapter 6.
-[12
-
-]
-Chapter 7.
 [13
 
 ]
-Chapter 8.
+Chapter 6.
 [14
 
-] [15
+]
+Chapter 7.
+[15
+
+]
+Chapter 8.
+[16
+
+] [17
 
 ]
 Chapter 9.
-[16
+[18
 
 ]
 Chapter 10.
-[17
+[19
 
 ]
 Chapter 11.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 121.
+(hyperref)                removing `math shift' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 121.
+(hyperref)                removing `\alpha' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 121.
+(hyperref)                removing `subscript' on input line 142.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 121.
+(hyperref)                removing `math shift' on input line 142.
 
-[18
-
-]
-Chapter 12.
-[19
-
-]
-Chapter 13.
 [20
 
 ]
-Chapter 14.
+Chapter 12.
 [21
 
-] [22
+]
+Chapter 13.
+[22
+
+]
+Chapter 14.
+[23
+
+] [24
 
 ]
 Chapter 15.
-[23
+[25
 
 ]
 Chapter 16.
-[24
+[26
 
 ]
 Chapter 17.
-[25
+[27
 
-] [26
+] [28
 
 ] (./Skadi_Thesis_Draft.aux (./Title_page.aux) (./Copyright_page.aux)
 (./Approval_page.aux) (./Abstract.aux) (./Acknowledgements.aux)
@@ -1346,24 +1348,22 @@ Chapter 17.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Skadi_Thesis_Draft.out' has not changed.
-(rerunfilecheck)             Checksum: 0A81C2A04A91713335E5C3765F58AEC7;6905.
+(rerunfilecheck)             Checksum: AABA577B26EFB4B3B0D8C47D4A4C66CB;8359.
 
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                Skadi_Thesis_Draft
-(biblatex)                and rerun LaTeX afterwards.
+Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'Skadi_Thesis_Draft.run.xml'.
 \openout1 = `Skadi_Thesis_Draft.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 28613 strings out of 478287
- 545415 string characters out of 5849289
- 1229586 words of memory out of 5000000
- 46230 multiletter control sequences out of 15000+600000
- 481705 words of font info for 74 fonts, out of 8000000 for 9000
+ 28497 strings out of 478287
+ 543228 string characters out of 5849289
+ 1230670 words of memory out of 5000000
+ 46110 multiletter control sequences out of 15000+600000
+ 481874 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,8n,104p,1163b,1161s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,8n,104p,1163b,1327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
@@ -1375,11 +1375,12 @@ ts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pf
 b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/shar
-e/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on Skadi_Thesis_Draft.pdf (36 pages, 171134 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texm
+f/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Skadi_Thesis_Draft.pdf (38 pages, 4734147 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 368 compressed objects within 4 object streams
- 82 named destinations out of 1000 (max. 500000)
- 261 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 520 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
