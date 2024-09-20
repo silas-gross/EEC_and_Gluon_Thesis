@@ -1,6 +1,8 @@
 \documentclass[letterpaper, 12pt, oneside]{book}
 \usepackage[margin = 1in, includehead, footskip=0.25in]{geometry}
 \usepackage{setspace}
+\usepackage{caption}
+\usepackage{subcaption}
 \doublespacing
 \usepackage{amsfonts}
 \usepackage{amsmath}
@@ -76,11 +78,18 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 		Output of each of these systems is shown in fig \ref{fig:hcal_tests}
 		\begin{figure}
 			%need to figure out how to do the subfigures for this 
-			%	\includegraphics{ihcal_pulser}
-			%\includegraphics{ohcal_pulser}
-			%\includegraphics{ihcal_led}
-			%\includegraphics{ohcal_led}
-			\caption{Figuring out the subfigs first. But Left Pulser and Right LED, top IHCAL both OHCAL}
+			\begin{subfigure}[t]{0.4\textwidth}
+				\includegraphics[width=6cm]{pulser_waveform}
+				\includegraphics[width=6cm]{ihcal_pulser.png}
+				\caption{Charge Injection Pulse. This system allows for direct testing of electronics without detector response}
+			\end{subfigure}
+			\hfill
+			\begin{subfigure}[t]{0.4\textwidth}
+				\includegraphics[width=6.5cm]{led_waveform}
+				\includegraphics[width=6cm]{ihcal_led}
+				\caption{LED pulse. This allows for testing of the full readback system and light response}
+			\end{subfigure}
+				\caption{Top: Presistence Waveform. Bottom: Energy distribution averaged across $10^{5}$ events}
 			\label{fig:hcal_tests}
 		\end{figure}
 		\subsubsection{Calibration}
@@ -110,7 +119,7 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 	The sPHENIX tracking system consits of the Silicon vertexing detectors and the gas based trackers.
 	\subsection{INTT}
 	\subsection{Micromegas Vertex Detector}
-	The Micromegas vertex detector (MVTX) is a 
+	The Micromegas Vertex detector (MVTX) is a 
 	\subsection{Time Projection Chamber}
 	The Time Projection Chamber (TPC) 
 	\subsection{TPC Outer Tracker}
