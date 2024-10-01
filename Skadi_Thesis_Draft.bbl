@@ -52,124 +52,44 @@
       \verb 10.1088/1742-6596/645/1/012008
       \endverb
     \endentry
-    \entry{sPHENIX_whitepaper}{article}{}
+    \entry{Salam2007}{article}{}
       \name{author}{2}{}{%
-        {{hash=67c0bb59b8051ac5d31f593c2d5b2c9d}{%
-           family={Adare},
-           familyi={A\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           prefix={et.},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {arXiv}%
-      }
-      \strng{namehash}{91574ee4b23b464df8e51ef5a8392ed7}
-      \strng{fullhash}{91574ee4b23b464df8e51ef5a8392ed7}
-      \strng{bibnamehash}{91574ee4b23b464df8e51ef5a8392ed7}
-      \strng{authorbibnamehash}{91574ee4b23b464df8e51ef5a8392ed7}
-      \strng{authornamehash}{91574ee4b23b464df8e51ef5a8392ed7}
-      \strng{authorfullhash}{91574ee4b23b464df8e51ef5a8392ed7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In this document the PHENIX collaboration proposes a major upgrade to the PHENIX detector at the Relativistic Heavy Ion Collider. This upgrade, sPHENIX, enables an extremely rich jet and beauty quarkonia physics program addressing fundamental questions about the nature of the strongly coupled quark-gluon plasma (QGP), discovered experimentally at RHIC to be a perfect fluid. The startling dynamics of the QGP on fluid-like length scales is an emergent property of quantum chromodynamics (QCD), seemingly implicit in the Lagrangian but stubbornly hidden from view. QCD is an asymptotically free theory, but how QCD manifests as a strongly coupled fluid with specific shear viscosity near $T_C$, as low as allowed by the uncertainty principle, is as fundamental an issue as that of how confinement itself arises.}
-      \field{eprintclass}{nucl-ex}
-      \field{eprinttype}{arXiv}
-      \field{month}{1}
-      \field{title}{An Upgrade Proposal from the PHENIX Collaboration}
-      \field{year}{2015}
-      \verb{doi}
-      \verb 10.48550/ARXIV.1501.06197
-      \endverb
-      \verb{eprint}
-      \verb 1501.06197
-      \endverb
-      \verb{file}
-      \verb :Adare2015 - An Upgrade Proposal from the PHENIX Collaboration.pdf:PDF
-      \endverb
-      \keyw{Nuclear Experiment (nucl-ex),FOS: Physical sciences}
-    \endentry
-    \entry{sPHENIX_physics_goals}{article}{}
-      \name{author}{2}{}{%
-        {{hash=804b656f29fe41a378524730f411bacf}{%
-           family={Belmont},
-           familyi={B\bibinitperiod},
-           given={Ron},
-           giveni={R\bibinitperiod}}}%
-        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           prefix={et.},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier BV}%
-      }
-      \strng{namehash}{e2b05bd430c7195bd9df371c0d450297}
-      \strng{fullhash}{e2b05bd430c7195bd9df371c0d450297}
-      \strng{bibnamehash}{e2b05bd430c7195bd9df371c0d450297}
-      \strng{authorbibnamehash}{e2b05bd430c7195bd9df371c0d450297}
-      \strng{authornamehash}{e2b05bd430c7195bd9df371c0d450297}
-      \strng{authorfullhash}{e2b05bd430c7195bd9df371c0d450297}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0375-9474}
-      \field{journaltitle}{Nuclear Physics A}
-      \field{month}{3}
-      \field{title}{Predictions for the sPHENIX physics program}
-      \field{volume}{1043}
-      \field{year}{2024}
-      \field{pages}{122821}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1016/j.nuclphysa.2024.122821
-      \endverb
-    \endentry
-    \entry{tower_slope_hcal}{article}{}
-      \name{author}{2}{}{%
-        {{hash=eb39bbc4713b0118366317a14ed623c7}{%
-           family={Sirunyan},
+        {{hash=cdd9546b48e743df2da267f924c11cb4}{%
+           family={Salam},
            familyi={S\bibinitperiod},
-           given={A.M.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           prefix={et.},
-           prefixi={e\bibinitperiod}}}%
+           given={Gavin\bibnamedelima P},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=71817617f2c64080233b36b943adbff8}{%
+           family={Soyez},
+           familyi={S\bibinitperiod},
+           given={Grégory},
+           giveni={G\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {IOP Publishing}%
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
       }
-      \strng{namehash}{3a6f0ced619d7b715576420ab83f7085}
-      \strng{fullhash}{3a6f0ced619d7b715576420ab83f7085}
-      \strng{bibnamehash}{3a6f0ced619d7b715576420ab83f7085}
-      \strng{authorbibnamehash}{3a6f0ced619d7b715576420ab83f7085}
-      \strng{authornamehash}{3a6f0ced619d7b715576420ab83f7085}
-      \strng{authorfullhash}{3a6f0ced619d7b715576420ab83f7085}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \strng{namehash}{7bbbf96c071082c001636424aab3c015}
+      \strng{fullhash}{7bbbf96c071082c001636424aab3c015}
+      \strng{bibnamehash}{7bbbf96c071082c001636424aab3c015}
+      \strng{authorbibnamehash}{7bbbf96c071082c001636424aab3c015}
+      \strng{authornamehash}{7bbbf96c071082c001636424aab3c015}
+      \strng{authorfullhash}{7bbbf96c071082c001636424aab3c015}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{1748-0221}
-      \field{journaltitle}{Journal of Instrumentation}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
       \field{month}{5}
       \field{number}{05}
-      \field{title}{Calibration of the CMS hadron calorimeters using proton-proton collision data at $\sqrt{s} = 13 TeV$}
-      \field{volume}{15}
-      \field{year}{2020}
-      \field{pages}{P05002\bibrangedash P05002}
-      \range{pages}{-1}
+      \field{title}{A practical seedless infrared-safe cone jet algorithm}
+      \field{volume}{2007}
+      \field{year}{2007}
+      \field{pages}{086\bibrangedash 086}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1088/1748-0221/15/05/p05002
+      \verb 10.1088/1126-6708/2007/05/086
       \endverb
     \endentry
     \entry{sphenix_ZDC}{article}{}
@@ -229,6 +149,48 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1016/s0168-9002(01)00627-1
+      \endverb
+    \endentry
+    \entry{Larkoski2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e712b5240ceac15d27335f9d2af843cc}{%
+           family={Larkoski},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=cdd9546b48e743df2da267f924c11cb4}{%
+           family={Salam},
+           familyi={S\bibinitperiod},
+           given={Gavin\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=90f102f9e580c8d97064f719874e0764}{%
+           family={Thaler},
+           familyi={T\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{8300a7b25d3707743744c27863284bc1}
+      \strng{fullhash}{9e7d0adef704e042621711ffeaea61b5}
+      \strng{bibnamehash}{9e7d0adef704e042621711ffeaea61b5}
+      \strng{authorbibnamehash}{9e7d0adef704e042621711ffeaea61b5}
+      \strng{authornamehash}{8300a7b25d3707743744c27863284bc1}
+      \strng{authorfullhash}{9e7d0adef704e042621711ffeaea61b5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Energy correlation functions for jet substructure}
+      \field{volume}{2013}
+      \field{year}{2013}
+      \verb{doi}
+      \verb 10.1007/jhep06(2013)108
       \endverb
     \endentry
     \entry{Dokshitzer1997}{article}{}
@@ -299,10 +261,12 @@
   \missing{Gallicchio2011}
   \missing{HCal_Calib}
   \missing{Jones1989}
+  \missing{Kimiske2018}
   \missing{Lima2017}
   \missing{QGP_droplets}
-  \missing{Salam2007}
   \missing{sPHENIX_TDR}
+  \missing{sPHENIX_physics_goals}
+  \missing{tower_slope_hcal}
 \endrefsection
 \endinput
 

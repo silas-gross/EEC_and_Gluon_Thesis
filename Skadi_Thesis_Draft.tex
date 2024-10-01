@@ -16,6 +16,7 @@
 \usepackage{lscape}
 \usepackage{import}
 \usepackage[style=phys]{biblatex}
+\newcommand{\dd}{\textrm{d}}
 \bibliography{thesis_refs}
 %\addbibresource{thesis_refs.bib}
 \usepackage{lineno}
@@ -133,9 +134,17 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 	The sPHENIX detector has a number of triggers at its disposal to allow for online event type selections for the triggered readout system: the EMCal, the HCals, the ZDC, the MBD, the sEPD and--for run 2024--the TPC.
 	Starting in run 2024, available triggers are Minimum Bias 
 \chapter{Monte Carlo Simulations}
+	We have some of them, there is some data from the 2 and three point energy correlator, and its important for training of our discriminator 
 \chapter{Determining Backgrounds and Errors}
 \part{Technicalities: The finer points of theory and computing}
 \chapter{The Energy Correlator and the primary vertex}
+	So the energy correlator alows a look back, I guess thats the relevant bit? 
+	Point being, if the jet points back to the primary vertex, the share of the energy between the jets and the composition of those jets is directly determined by the $2 \rightarrow 2$ scattering and is thus sensitive to the parton distribution functions of the beam particles. 
+	Starting from the definition of the energy correlator given in \cite{Larkoski2013}:
+	\begin{equation}
+		\mathcal{E}_{N} = \int \frac{\dd \Omega}{2} \int \dd \vec{n}_{12} \frac{\langle \varepsilon \left( \vec{n}_1 \right) ... \varepsilon \left(\vec{n}_2 \right)\rangle}{Q^2} \delta\left( \vec{n}_1 \cdot \vec{n}_2 - 2|\vec{n}_1|||\vec{n}_2|\cos  \theta \right)
+		\label{eq:ENC}
+	\end{equation}
 \chapter{Jets in Vacuum and the PDF}
 \section{Jet Identification Algorithms}
 As discussed in chapter \ref{ch:LR}, there are a variety of jet finding algorithms that prioritize different theoretical aspects of the underlying physics while being experimentally realizable \cite{Dokshitzer1997} \cite{Atkin2015}. 
@@ -149,7 +158,9 @@ That is, the jet object needs to display invariance in the Infrared (IR) and Col
 \chapter{So is sPHENIX actually working?}
 \chapter{Measuring the Energy Correlator}
 \chapter{The Power of the ENC: $\alpha_s$ at the few GeV scale}
+\chaptermark{alphas}
 \chapter{Event-by-Event distinguishing}
+\chaptermark{qgdiscr}
 \chapter{Comparison is the Theft of Joy: What does the LHC say, and how about STAR?}
 \chaptermark{LHC and STAR Results}
 \chapter{Entanglement and other Lofty Goals}

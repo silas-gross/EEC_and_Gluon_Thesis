@@ -1,27 +1,34 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Skadi_Thesis_Draft.blg'
-[72] biber:340> INFO - === Wed Sep 18, 2024, 19:27:14
-[98] Biber.pm:418> INFO - Reading 'Skadi_Thesis_Draft.bcf'
-[155] Biber.pm:972> INFO - Found 15 citekeys in bib section 0
-[166] Biber.pm:4383> INFO - Processing section 0
-[184] Biber.pm:4574> INFO - Looking for bibtex file 'thesis_refs.bib' for section 0
-[193] bibtex.pm:1713> INFO - LaTeX decoding ...
-[234] bibtex.pm:1518> INFO - Found BibTeX data source 'thesis_refs.bib'
-[318] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[318] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[318] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[318] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[323] bbl.pm:654> INFO - Writing 'Skadi_Thesis_Draft.bbl' with encoding 'UTF-8'
-[326] bbl.pm:757> INFO - Output to Skadi_Thesis_Draft.bbl
-[326] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Dokshitzer1997' is not an integer - this will probably not sort properly.
-[326] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'
-[327] Biber.pm:130> WARN - I didn't find a database entry for 'Salam2007' (section 0)
-[327] Biber.pm:130> WARN - I didn't find a database entry for 'Jones1989' (section 0)
-[327] Biber.pm:130> WARN - I didn't find a database entry for 'Fodor1990' (section 0)
-[327] Biber.pm:130> WARN - I didn't find a database entry for 'Gallicchio2011' (section 0)
-[327] Biber.pm:130> WARN - I didn't find a database entry for 'Lima2017' (section 0)
-[327] Biber.pm:130> WARN - I didn't find a database entry for 'Bhattecherjee2017' (section 0)
-[327] Biber.pm:130> WARN - I didn't find a database entry for 'QGP_droplets' (section 0)
-[327] Biber.pm:130> WARN - I didn't find a database entry for 'sPHENIX_TDR' (section 0)
-[328] Biber.pm:130> WARN - I didn't find a database entry for 'HCal_Calib' (section 0)
-[328] Biber.pm:132> INFO - WARNINGS: 11
+[66] biber:340> INFO - === Tue Oct  1, 2024, 00:17:24
+[82] Biber.pm:418> INFO - Reading 'Skadi_Thesis_Draft.bcf'
+[152] Biber.pm:972> INFO - Found 17 citekeys in bib section 0
+[164] Biber.pm:4383> INFO - Processing section 0
+[176] Biber.pm:4574> INFO - Looking for bibtex file 'thesis_refs.bib' for section 0
+[182] bibtex.pm:1713> INFO - LaTeX decoding ...
+[235] bibtex.pm:1518> INFO - Found BibTeX data source 'thesis_refs.bib'
+[318] Utils.pm:398> ERROR - Name "Britton,, C. L." is malformed (consecutive commas): skipping entry 'sPHENIX_whitepaper'
+[348] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[348] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[348] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[348] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[352] bbl.pm:654> INFO - Writing 'Skadi_Thesis_Draft.bbl' with encoding 'UTF-8'
+[355] bbl.pm:757> INFO - Output to Skadi_Thesis_Draft.bbl
+[356] Biber.pm:130> WARN - Entry with key 'sPHENIX_whitepaper' in section '0' is cited and found but not created (likely due to sourcemap)
+[356] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Larkoski2013' is not an integer - this will probably not sort properly.
+[356] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Dokshitzer1997' is not an integer - this will probably not sort properly.
+[356] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'
+[356] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_6Y76/19ef306b7a38219432f2f2c45157ce77_3369.utf8, line 408, warning: 330 characters of junk seen at toplevel
+[356] Biber.pm:130> WARN - I didn't find a database entry for 'Kimiske2018' (section 0)
+[356] Biber.pm:130> WARN - I didn't find a database entry for 'Jones1989' (section 0)
+[356] Biber.pm:130> WARN - I didn't find a database entry for 'Fodor1990' (section 0)
+[356] Biber.pm:130> WARN - I didn't find a database entry for 'Gallicchio2011' (section 0)
+[356] Biber.pm:130> WARN - I didn't find a database entry for 'Lima2017' (section 0)
+[357] Biber.pm:130> WARN - I didn't find a database entry for 'Bhattecherjee2017' (section 0)
+[357] Biber.pm:130> WARN - I didn't find a database entry for 'QGP_droplets' (section 0)
+[357] Biber.pm:130> WARN - I didn't find a database entry for 'sPHENIX_TDR' (section 0)
+[357] Biber.pm:130> WARN - I didn't find a database entry for 'sPHENIX_physics_goals' (section 0)
+[357] Biber.pm:130> WARN - I didn't find a database entry for 'HCal_Calib' (section 0)
+[357] Biber.pm:130> WARN - I didn't find a database entry for 'tower_slope_hcal' (section 0)
+[358] Biber.pm:132> INFO - WARNINGS: 16
+[358] Biber.pm:135> INFO - ERRORS: 1
