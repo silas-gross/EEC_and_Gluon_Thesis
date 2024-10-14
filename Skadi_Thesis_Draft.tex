@@ -68,6 +68,18 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 	\label{fig:sphenix_detector}
 \end{figure}
 \section{Calorimetery}
+	\subsection{Analog Digital Converters and Data Acquisition}
+		Beyond the purposes and hardware of the detector itself, one can further characterize the subsystems of sPHENIX into streaming readout and non-streaming detectors, broadly distinguishing the tracking detectors from other subsystems. 
+		The non-streaming detectors all use a common data acquisition pipeline and data format. 
+		These detectors are readout to analog digital converters boards with 64 channels each, which are then grouped into sets of 3 called an "XMIT" group, which is then read to the data format as a "packet" of 192 channels. 
+		Each packet is transmitted from the detector to the computing center on a seperate fiber optic cable that is then read into a digitizer which forms groups of (at most) eight packets that are then assigned to individual data acquisition servers. 
+		The digitizing process allows for readback into the detector through a global trigger and timing module, where each DAQ server, can issue comands and readback to an event building logic that will then flow back to the detector controling the same XMIT groups. 
+		Each set of (at most) 4 XMIT groups is arranged into a crate with a single crate controller that recieves trigger and timing information distributed via a global timing and level 1 trigger module (GL1/GTM) that is then processed through a clockmaster for each digitizer rack, which will hold between 1 and 4 crates, depending of the needs of the subsystem. 
+		The data read out to each DAQ server is then stored in the "Purschke Raq Data Format" or prdf file that provides an event structure consisiting of a header with some identifying information and seperate headers for each packet, but is otherwise comprehensible as an ASCII file. 
+		This event structure allows for easy offline combination of events across the calorimeters while keeping individual file size buffers relatively small, as each packet has timing information along with an event number relative to the run that is inhreited fom the timing module. 
+		This DAQ configuration is currently used for the calorimeters, the event plane detector and the minimuum bias detector, which allows for faster event building to verify data quality and alignment. 
+		The tracking detectors untilize a streaming readout format that creates event pools that are then associated with beam crossing timings provided by the RHIC clock and can be matched onto the GTM timing in offline analysis. 
+		This process is slow, and the fully implementation of event combination is still under developement, not accounting for event reconstructions which involves track matching across subsystems and will be discussed in section \ref{sec:events}.
 	\subsection{Hadronic Calorimeters}
 		sPHENIX's power in jet physics comes in large part from its calorimeter systems, including two seperate hadronic calorimeters. 
 		The outer and inner hadronic calorimeter (OHCal and IHCal respectively) are both divided into 24 bins in $\eta$ with coverage of $|\eta| \leq 1.1$  and full $\varphi$ coverage with 64 bins in $\varphi$, grouped in $\varphi$ into 32 sectors in each calorimeter. 
@@ -111,16 +123,20 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 			applied via the tower slope. 
 			The mean $m_{\pi^0}$ and width are used as quality assurance plots to monitor radiation damage to the EMCal on an ongoing basis.
 	\subsection{Zero Degree Calorimeter}
-		The Zero Degree Calorimeter (ZDC) is a small transverse energy hadron detector that positioned outside of the experiment hall, in the tunnels along the beam pipe, 18 m from he interaction point on both side.
-		The ZDC is used to detect spectator neutrons to allow for the calculation of multiplicity and event geometry, makind it an overlapping detector between the calorimeters and the event characterization \cite{sphenix_ZDC}.
+		The Zero Degree Calorimeter (ZDC) is a small transverse energy hadron detector that positioned outside of the experiment hall, in the tunnels along the beam pipe, 18 m from the interaction point on both side.
+		The ZDC is used to detect spectator neutrons to allow for the calculation of multiplicity and event geometry, making it an overlapping detector between the calorimeters and the event characterization \cite{sphenix_ZDC}. 
+		In addition, the ZDC provides a good proxy for total collision rates, useful for both real time monitoring of beam conditions and 
 		The sPHENIX ZDC is one of two detectors that was preserved from PHENIX, with minor repairs and upgrades to improve running.
-		In pp collisions, the ZDC and the Minimum Bias detector
+		In pp collisions, the ZDC provides additional utility as a spin momentum detector that allows for measurment of the spin patterns of the RHIC beam through the Vernier Scan. 
+		This functionality is pivotal for the development of sPHENIX's spin physics program in pp and its extensions into the continuing physics goals at the Electron Ion Collider (EIC)\cite{sphenix_ZDC}.
+		For the purposes of this work, the ZDC is not utilized for either spin phyiscs or trigger capabilities and serves primiarily to help establish cross-sections for error determination. 
+		While this work does not dive into the subject of spin depenendence, such topics are a natural extension and present an intresting avenue for future studies in this vien to be done with the sPHENIX Run 24 data set. 
 
 \section{Tracking}
 	The sPHENIX tracking system consits of the Silicon vertexing detectors and the gas based trackers.
 	\subsection{INTT}
 	\subsection{Micromegas Vertex Detector}
-	The Micromegas Vertex detector (MVTX) is a 
+	The Micromegas Vertex detector (MVTX) is a silicon based vertexing detector based on a similar system at the ALICE experiment of the Large Hadron Collider (LHC). 
 	\subsection{Time Projection Chamber}
 	The Time Projection Chamber (TPC) 
 	\subsection{TPC Outer Tracker}
@@ -133,6 +149,7 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 \section{Triggers}
 	The sPHENIX detector has a number of triggers at its disposal to allow for online event type selections for the triggered readout system: the EMCal, the HCals, the ZDC, the MBD, the sEPD and--for run 2024--the TPC.
 	Starting in run 2024, available triggers are Minimum Bias 
+	\section{
 \chapter{Monte Carlo Simulations}
 	We have some of them, there is some data from the 2 and three point energy correlator, and its important for training of our discriminator 
 \chapter{Determining Backgrounds and Errors}
@@ -158,9 +175,9 @@ That is, the jet object needs to display invariance in the Infrared (IR) and Col
 \chapter{So is sPHENIX actually working?}
 \chapter{Measuring the Energy Correlator}
 \chapter{The Power of the ENC: $\alpha_s$ at the few GeV scale}
-\chaptermark{alphas}
-\chapter{Event-by-Event distinguishing}
-\chaptermark{qgdiscr}
+\label{ch:alphas}
+\chapter{Event-by-Event distinguishing} 
+\label{ch:qgdiscr}
 \chapter{Comparison is the Theft of Joy: What does the LHC say, and how about STAR?}
 \chaptermark{LHC and STAR Results}
 \chapter{Entanglement and other Lofty Goals}

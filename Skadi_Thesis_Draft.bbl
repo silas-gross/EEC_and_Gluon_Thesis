@@ -92,6 +92,270 @@
       \verb 10.1088/1126-6708/2007/05/086
       \endverb
     \endentry
+    \entry{Komiske2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=d5eeb18a69bdaaab8fdde75adf930604}{%
+           family={Komiske},
+           familyi={K\bibinitperiod},
+           given={Patrick\bibnamedelima T.},
+           giveni={P\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=23f1b3b5b5ace636594dfed7e0cc6925}{%
+           family={Metodiev},
+           familyi={M\bibinitperiod},
+           given={Eric\bibnamedelima M.},
+           giveni={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=90f102f9e580c8d97064f719874e0764}{%
+           family={Thaler},
+           familyi={T\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{5fc199c7e2dbf317f2a2810d2a0171ee}
+      \strng{fullhash}{e994c533771a47947d823c2aff3b82ca}
+      \strng{bibnamehash}{e994c533771a47947d823c2aff3b82ca}
+      \strng{authorbibnamehash}{e994c533771a47947d823c2aff3b82ca}
+      \strng{authornamehash}{5fc199c7e2dbf317f2a2810d2a0171ee}
+      \strng{authorfullhash}{e994c533771a47947d823c2aff3b82ca}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{While "quark" and "gluon" jets are often treated as separate, well-defined objects in both theoretical and experimental contexts, no precise, practical, and hadron-level definition of jet flavor presently exists. To remedy this issue, we develop and advocate for a data-driven, operational definition of quark and gluon jets that is readily applicable at colliders. Rather than specifying a per-jet flavor label, we aggregately define quark and gluon jets at the distribution level in terms of measured hadronic cross sections. Intuitively, quark and gluon jets emerge as the two maximally separable categories within two jet samples in data. Benefiting from recent work on data-driven classifiers and topic modeling for jets, we show that the practical tools needed to implement our definition already exist for experimental applications. As an informative example, we demonstrate the power of our operational definition using Z+jet and dijet samples, illustrating that pure quark and gluon distributions and fractions can be successfully extracted in a fully well-defined manner.}
+      \field{day}{4}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{JHEP 11 (2018) 059}
+      \field{month}{9}
+      \field{number}{11}
+      \field{title}{An operational definition of quark and gluon jets}
+      \field{volume}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \verb{doi}
+      \verb 10.1007/jhep11(2018)059
+      \endverb
+      \verb{eprint}
+      \verb 1809.01140
+      \endverb
+      \verb{file}
+      \verb :Komiske2018 - An Operational Definition of Quark and Gluon Jets.pdf:PDF
+      \endverb
+      \keyw{High Energy Physics - Phenomenology (hep-ph),High Energy Physics - Experiment (hep-ex),FOS: Physical sciences}
+      \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'Komiske2018'}
+    \endentry
+    \entry{Jones1989}{article}{}
+      \name{author}{1}{}{%
+        {{hash=b47701483174e0ca3d7c6697fc9cded5}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Lorella\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{b47701483174e0ca3d7c6697fc9cded5}
+      \strng{fullhash}{b47701483174e0ca3d7c6697fc9cded5}
+      \strng{bibnamehash}{b47701483174e0ca3d7c6697fc9cded5}
+      \strng{authorbibnamehash}{b47701483174e0ca3d7c6697fc9cded5}
+      \strng{authornamehash}{b47701483174e0ca3d7c6697fc9cded5}
+      \strng{authorfullhash}{b47701483174e0ca3d7c6697fc9cded5}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0556-2821}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{5}
+      \field{number}{9}
+      \field{title}{Tests for determining the parton ancestor of a hadron jet}
+      \field{volume}{39}
+      \field{year}{1989}
+      \field{pages}{2550\bibrangedash 2560}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1103/physrevd.39.2550
+      \endverb
+    \endentry
+    \entry{Fodor1990}{article}{}
+      \name{author}{1}{}{%
+        {{hash=40fc31706576b4c3d564c16b05f23616}{%
+           family={Fodor},
+           familyi={F\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{fullhash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{bibnamehash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{authorbibnamehash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{authornamehash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{authorfullhash}{40fc31706576b4c3d564c16b05f23616}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0556-2821}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{3}
+      \field{number}{5}
+      \field{title}{How to see the differences between quark and gluon jets}
+      \field{volume}{41}
+      \field{year}{1990}
+      \field{pages}{1726\bibrangedash 1730}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/physrevd.41.1726
+      \endverb
+    \endentry
+    \entry{Gallicchio2011}{article}{}
+      \name{author}{2}{}{%
+        {{hash=803c44b7f296b8c692503295522e8f59}{%
+           family={Gallicchio},
+           familyi={G\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1e7b6dde56467cb787f369fadc91b2df}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{0fb3deac08ac2ac28889294e3bf4c32d}
+      \strng{fullhash}{0fb3deac08ac2ac28889294e3bf4c32d}
+      \strng{bibnamehash}{0fb3deac08ac2ac28889294e3bf4c32d}
+      \strng{authorbibnamehash}{0fb3deac08ac2ac28889294e3bf4c32d}
+      \strng{authornamehash}{0fb3deac08ac2ac28889294e3bf4c32d}
+      \strng{authorfullhash}{0fb3deac08ac2ac28889294e3bf4c32d}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Pure samples of quark and gluon jets at the LHC}
+      \field{volume}{2011}
+      \field{year}{2011}
+      \verb{doi}
+      \verb 10.1007/jhep10(2011)103
+      \endverb
+    \endentry
+    \entry{Lima2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=83aa59283399d045f425d1e3806cc2fd}{%
+           family={Ferreira\bibnamedelimb de\bibnamedelima Lima},
+           familyi={F\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Danilo},
+           giveni={D\bibinitperiod}}}%
+        {{hash=96c93d3c83555956e9a7cef174fac96f}{%
+           family={Petrov},
+           familyi={P\bibinitperiod},
+           given={Petar},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0f07fc7235ecce7ba39a21af88e6a5b5}{%
+           family={Soper},
+           familyi={S\bibinitperiod},
+           given={Davison},
+           giveni={D\bibinitperiod}}}%
+        {{hash=40f85c2ea49b0914f2eaaeb5275e523b}{%
+           family={Spannowsky},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{1fa604237c8145c36ee7e98d796ebc9e}
+      \strng{fullhash}{fee642791cbf5ad42433f2ef747f9f20}
+      \strng{bibnamehash}{fee642791cbf5ad42433f2ef747f9f20}
+      \strng{authorbibnamehash}{fee642791cbf5ad42433f2ef747f9f20}
+      \strng{authornamehash}{1fa604237c8145c36ee7e98d796ebc9e}
+      \strng{authorfullhash}{fee642791cbf5ad42433f2ef747f9f20}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2470-0029}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Quark-gluon tagging with shower deconstruction: Unearthing dark matter and Higgs couplings}
+      \field{volume}{95}
+      \field{year}{2017}
+      \field{pages}{034001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/physrevd.95.034001
+      \endverb
+    \endentry
+    \entry{Bhattacherjee2017}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2cc5caffd21296f78abbf3664a8cd3ac}{%
+           family={Bhattacherjee},
+           familyi={B\bibinitperiod},
+           given={Biplob},
+           giveni={B\bibinitperiod}}}%
+        {{hash=60fddd647f8388c400b97183e7b7215e}{%
+           family={Mukhopadhyay},
+           familyi={M\bibinitperiod},
+           given={Satyanarayan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=78bca09ebd2700f661b5da08be9d06cd}{%
+           family={Nojiri},
+           familyi={N\bibinitperiod},
+           given={Mihoko\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=67abf2ed7bad1c0c4fc05afff6acbd37}{%
+           family={Sakaki},
+           familyi={S\bibinitperiod},
+           given={Yasuhito},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=3220d04bfbd99df87fd7b823ab460131}{%
+           family={Webber},
+           familyi={W\bibinitperiod},
+           given={Bryan\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media LLC}%
+      }
+      \strng{namehash}{20c07241166017b541e1760d7cfd32d0}
+      \strng{fullhash}{6102af6dcae05cbc1c5a7fc7ecb4a3c6}
+      \strng{bibnamehash}{6102af6dcae05cbc1c5a7fc7ecb4a3c6}
+      \strng{authorbibnamehash}{6102af6dcae05cbc1c5a7fc7ecb4a3c6}
+      \strng{authornamehash}{20c07241166017b541e1760d7cfd32d0}
+      \strng{authorfullhash}{6102af6dcae05cbc1c5a7fc7ecb4a3c6}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1029-8479}
+      \field{journaltitle}{Journal of High Energy Physics}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Quark-gluon discrimination in the search for gluino pair production at the LHC}
+      \field{volume}{2017}
+      \field{year}{2017}
+      \verb{doi}
+      \verb 10.1007/jhep01(2017)044
+      \endverb
+    \endentry
     \entry{sphenix_ZDC}{article}{}
       \name{author}{6}{}{%
         {{hash=4cea43875add437cfa07b8a35dbd3a3d}{%
@@ -226,8 +490,8 @@
       \strng{authorbibnamehash}{bc479da46db95806b05bc1ccc68e2f41}
       \strng{authornamehash}{a21b42b01f81eab76d3de64798a7327a}
       \strng{authorfullhash}{bc479da46db95806b05bc1ccc68e2f41}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We investigate modifications to the $k_\perp$-clustering jet algorithm which preserve the advantages of the original Durham algorithm while reducing non-perturbative corrections and providing better resolution of jet substructure. We find that a simple change in the sequence of clustering (combining smaller-angle pairs first), together with the `freezing' of soft resolved jets, has beneficial effects.}
@@ -256,13 +520,7 @@
       \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'}
     \endentry
   \enddatalist
-  \missing{Bhattecherjee2017}
-  \missing{Fodor1990}
-  \missing{Gallicchio2011}
   \missing{HCal_Calib}
-  \missing{Jones1989}
-  \missing{Kimiske2018}
-  \missing{Lima2017}
   \missing{QGP_droplets}
   \missing{sPHENIX_TDR}
   \missing{sPHENIX_physics_goals}

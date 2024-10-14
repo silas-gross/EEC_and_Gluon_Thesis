@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.21)  1 OCT 2024 00:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.2.21)  13 OCT 2024 06:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Skadi_Thesis_Draft
+**Skadi_Thesis_Draft.tex
 (./Skadi_Thesis_Draft.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
@@ -1075,6 +1075,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Komiske2018':
+(biblatex)                - Overwriting field 'month' with month value from fie
+ld 'date' for entry 'Komiske2018'.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'Dokshitzer1997':
 (biblatex)                - Overwriting field 'month' with month value from fie
 ld 'date' for entry 'Dokshitzer1997'.
@@ -1082,49 +1088,7 @@ ld 'date' for entry 'Dokshitzer1997'.
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Bhattecherjee2017
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Fodor1990
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Gallicchio2011
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                HCal_Calib
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Jones1989
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Kimiske2018
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Lima2017
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -1246,33 +1210,7 @@ Chapter 1.
 ]
 \openout2 = `Lit_Review.aux'.
 
- (./Lit_Review.tex
-
-LaTeX Warning: Citation 'Kimiske2018' on page 2 undefined on input line 14.
-
-
-LaTeX Warning: Citation 'Jones1989' on page 2 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Fodor1990' on page 2 undefined on input line 16.
-
-
-LaTeX Warning: Citation 'Gallicchio2011' on page 2 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'Lima2017' on page 2 undefined on input line 17.
-
-
-LaTeX Warning: Citation 'Bhattecherjee2017' on page 2 undefined on input line 1
-7.
-
-
-LaTeX Warning: Reference `alphas' on page 2 undefined on input line 18.
-
-
-LaTeX Warning: Reference `qgdiscr' on page 2 undefined on input line 18.
-
-[2
+ (./Lit_Review.tex [2
 
 ]) [3] [4
 
@@ -1294,7 +1232,7 @@ LaTeX Warning: Citation 'sPHENIX_whitepaper' on page 5 undefined on input line
 LaTeX Warning: Citation 'sPHENIX_physics_goals' on page 5 undefined on input li
 ne 62.
 
-<sphenix_detector.png, id=300, 1355.0625pt x 787.94376pt>
+<sphenix_detector.png, id=319, 1355.0625pt x 787.94376pt>
 File: sphenix_detector.png Graphic file (type png)
 <use sphenix_detector.png>
 Package pdftex.def Info: sphenix_detector.png  used on input line 66.
@@ -1307,26 +1245,26 @@ Overfull \hbox (193.84763pt too wide) in paragraph at lines 62--70
 
 [5
 
-]
+] [6 <./sphenix_detector.png>]
 
-LaTeX Warning: Reference `fig:hcal' on page 6 undefined on input line 77.
+LaTeX Warning: Reference `fig:hcal' on page 7 undefined on input line 89.
 
 
 
 pdfTeX warning: pdflatex (file ./pulser_waveform.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<pulser_waveform.pdf, id=307, 718.3638pt x 451.6875pt>
+<pulser_waveform.pdf, id=332, 718.3638pt x 451.6875pt>
 File: pulser_waveform.pdf Graphic file (type pdf)
 <use pulser_waveform.pdf>
-Package pdftex.def Info: pulser_waveform.pdf  used on input line 83.
+Package pdftex.def Info: pulser_waveform.pdf  used on input line 95.
 (pdftex.def)             Requested size: 170.71652pt x 107.33891pt.
-<ihcal_pulser.png, id=308, 818.05624pt x 536.50438pt>
+<ihcal_pulser.png, id=333, 818.05624pt x 536.50438pt>
 File: ihcal_pulser.png Graphic file (type png)
 <use ihcal_pulser.png>
-Package pdftex.def Info: ihcal_pulser.png  used on input line 84.
+Package pdftex.def Info: ihcal_pulser.png  used on input line 96.
 (pdftex.def)             Requested size: 170.71652pt x 111.95702pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 95--97
 [][]
  []
 
@@ -1337,7 +1275,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89 ...includegraphics[width=6.5cm]{led_waveform}
+l.101 ...ncludegraphics[width=6.5cm]{led_waveform}
                                                   
 ? 
 
@@ -1347,106 +1285,106 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 				\includegraphics[width=6cm]{ihcal_led}
-                                               
+l.102 				\includegraphics[width=6cm]{ihcal_led}
+                                                
 ? 
-[6 <./sphenix_detector.png>]
+[7]
 
-LaTeX Warning: Citation 'HCal_Calib' on page 7 undefined on input line 98.
+LaTeX Warning: Citation 'HCal_Calib' on page 8 undefined on input line 110.
 
 
-LaTeX Warning: Citation 'tower_slope_hcal' on page 7 undefined on input line 10
-0.
+LaTeX Warning: Citation 'tower_slope_hcal' on page 8 undefined on input line 11
+2.
 
-[7 <./pulser_waveform.pdf> <./ihcal_pulser.png>] [8] [9]
-Overfull \hbox (1.09312pt too wide) in paragraph at lines 131--133
+[8] [9 <./pulser_waveform.pdf> <./ihcal_pulser.png>] [10]
+Overfull \hbox (1.09312pt too wide) in paragraph at lines 147--149
 \OT1/cmr/m/n/12 The sPHENIX Min-i-mum Bias De-tec-tor (MBD) is the other de-tec
 -tor pre-served from PHENIX,
  []
 
-[10]
+[11]
 Chapter 3.
-[11
+[12
 
 ]
 Chapter 4.
-[12
+[13
 
-] [13
+] [14
 
 ]
 Chapter 5.
-[14
-
-]
-Chapter 6.
 [15
 
 ]
-Chapter 7.
+Chapter 6.
 [16
 
 ]
-Chapter 8.
+Chapter 7.
 [17
 
-] [18
+]
+Chapter 8.
+[18
+
+] [19
 
 ]
 Chapter 9.
-[19
+[20
 
 ]
 Chapter 10.
-[20
+[21
 
 ]
 Chapter 11.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 176.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\alpha' on input line 160.
+(hyperref)                removing `\alpha' on input line 176.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 160.
+(hyperref)                removing `subscript' on input line 176.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 160.
+(hyperref)                removing `math shift' on input line 176.
 
-[21
-
-]
-Chapter 12.
 [22
 
 ]
-Chapter 13.
+Chapter 12.
 [23
 
 ]
-Chapter 14.
+Chapter 13.
 [24
 
-] [25
+]
+Chapter 14.
+[25
+
+] [26
 
 ]
 Chapter 15.
-[26
-
-]
-Chapter 16.
 [27
 
 ]
-Chapter 17.
+Chapter 16.
 [28
 
-] [29
+]
+Chapter 17.
+[29
+
+] [30
 
 ] (./Skadi_Thesis_Draft.aux (./Title_page.aux) (./Copyright_page.aux)
 (./Approval_page.aux) (./Abstract.aux) (./Acknowledgements.aux)
@@ -1455,7 +1393,7 @@ Chapter 17.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Skadi_Thesis_Draft.out' has not changed.
-(rerunfilecheck)             Checksum: AABA577B26EFB4B3B0D8C47D4A4C66CB;8359.
+(rerunfilecheck)             Checksum: C46D32C620FE94A4A1318495D57B3491;8666.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                Skadi_Thesis_Draft
@@ -1466,13 +1404,13 @@ Package logreq Info: Writing requests to 'Skadi_Thesis_Draft.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29940 strings out of 478287
- 571692 string characters out of 5849289
- 1249127 words of memory out of 5000000
- 47529 multiletter control sequences out of 15000+600000
+ 29967 strings out of 478287
+ 572641 string characters out of 5849289
+ 1252369 words of memory out of 5000000
+ 47548 multiletter control sequences out of 15000+600000
  482174 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,9n,104p,1159b,1321s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,9n,104p,1197b,1339s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-di
@@ -1488,10 +1426,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1
 /public/cm-super/sfrm1200.pfb>
-Output written on Skadi_Thesis_Draft.pdf (39 pages, 5769120 bytes).
+Output written on Skadi_Thesis_Draft.pdf (40 pages, 5776417 bytes).
 PDF statistics:
- 538 PDF objects out of 1000 (max. 8388607)
- 455 compressed objects within 5 object streams
- 98 named destinations out of 1000 (max. 500000)
- 348 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 580 PDF objects out of 1000 (max. 8388607)
+ 496 compressed objects within 5 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
 
