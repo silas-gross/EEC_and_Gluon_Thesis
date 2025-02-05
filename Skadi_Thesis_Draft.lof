@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The sPHENIX detector. The Zero Degree Calorimeter is not picutred but is located further along the beam pipe.\relax }}{6}{figure.caption.8}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Top: Presistence Waveform. Bottom: Energy distribution averaged across $10^{5}$ events\relax }}{9}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The sPHENIX detector. The Zero Degree Calorimeter is not picutred but is located further along the beam pipe.\relax }}{8}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Top: Presistence Waveform. Bottom: Energy distribution averaged across $10^{5}$ events\relax }}{11}{figure.caption.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -10,6 +10,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Multiplicty in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations\relax }}{28}{figure.caption.14}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

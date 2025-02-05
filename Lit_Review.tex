@@ -5,11 +5,41 @@ The study of Quantum Chromodynamics in high energy collisions, such as those at 
 Jets, as objects, sit in the boundary between experiment and theory, being an experimental signature corresponding to final states of quarks and gluons produced in collisions. 
 Jets are a cluster of final state particles that result from the showering and hadronization of the initial parton, that are identified in experiment through use of one of the multiple jet reconstruction algorithms. 
 \subsection{Jet Reconstruction Algorithms}
-In Ryan Atkin's paper \textit{Review of jet reconstruction algorithms} \cite{Atkin2015}, Atkin provides an overview of the standard algorithms with a focus on practical implementation for experimental usage. %this is a very basic conference note style papaer, should probably just use it as an intro to each method
+In Ryan Atkin's paper \textit{Review of jet reconstruction algorithms} \cite{Atkin2015}, Atkin provides an overview of the standard algorithms with a focus on practical implementation for experimental usage. %this is a very basic conference note style paper, should probably just use it as an intro to each method
 Atkin discusses a number of algorithms that fall into two categories: Cone based and Sequential Clustering 
 \subsubsection{Cone Methods}
-	In Atkin's paper, Atkin discusses two iterative cone procedures--Iterative Cone with Progressive Removal and with Split Merge--and one more modern cone method, Seedless Infrared Safe Cone. 
-	These iterative cone procedures are described as simple to implement in an experimental context, however, they both suffer deficiencies from a theoretical perspective as they fail to be IRC safe \cite{Atkin2015} \cite{Salam2007}.
+	In Atkin's paper, Atkin discusses two iterative cone procedures--Iterative Cone with Progressive Removal (IC-PR) and with Split Merge (IC-SM)--and one more modern cone method, Seedless Infrared Safe Cone (SIS-Cone). 
+	These iterative cone procedures are described as simple to implement in an experimental context, however, they both suffer deficiencies from a theoretical perspective as they fail to be IRC safe \cite{Atkin2015} \cite{Salam2007}. 
+	In principle, these clustering algorithms are rather similar, one takes the hardest particle in the final state, terms this a jet seed and draws a circle of a fixed size around it, summing the 4-momentum of all particles of within the circle.
+	Then, the jet axis is compared to the jet seed, where a properly identified cone is defined as one where the condition in eq (\ref{eq:jet_axis_match}) is fulfilled.
+	\begin{equation}
+		\frac{p_{\textrm{jet}}^\mu}{|p_{\textrm{jet}}|} = \frac{p_{\textrm{seed}}^\mu}{|p_{\textrm{seed}}|}
+		\label{eq:jet_axis_match}
+	\end{equation}
+	If this condition is not fulfilled, one then starts again, setting the seed at the axis of the previously identified cone and draws a new circle of the same radius centered there. 
+	Once the jet is identified, the progressive removal procedure then removes all particles identified with this method and continues until there are no particles with a $p_{T} > p_{T}^{min}$ which is set by the user. 
+	In the split-merge procedure, one first identifies all seed particles, and builds the stable cones, but these are then treated as protojets. 
+	These protojets are then filtered by an additional $p_{T}^{\textrm{jet}} > p_{T}^{cut}$ threshold, then overlapping protojets are split or merged in descending $p_{T}$ order depending on a merging parameter, $f ~ 0.5$. 
+	If the sum of $p_{T}$ for the shared particles is less than the $f p_{T}^{sl}$ where $p_{T}^{sl}$ is the lower $p_{T}$ protojet, then the overlapping particles are split based on distance from the protojet axes and the protojets are updated.
+	Else wise, the two protojets are merged into a single jet. 
+
+	Both of these methods are IRC unsafe to some degree, but are useful in situations where quick jet identification is needed, e.g. CMS Cone and Pythia Cone are IC-PR and ATLAS Cone and JetClu midpoint cones are IC-SM . %this needs citations here  
+	The IC-PR is collinear unsafe, as the progressive removal procedure inherently ignores any overlapping jets.
+	The IC-SM however is infrared-unsafe as it introduces further parameters to filter pile-up and thus removes low energy contributions \cite{Salam2007}.
+	\subsubsection{Sequential Clustering algorithms}
+	The sequential clustering algorithms on the other hand are all IRC safe, working from the underlying assumption that all of the final state particles in a jet would have originated from a single initial parton, thus in theory, one can reconstruct that collection \cite{Dokshitzer1997}.
+	Three of these methods, anti-$k_{T}$, $k_{T}$ and Cambridge/Achen, utilize the same mechanism with modifications to their metric. 
+	These methods, here referred to as $k_{T}$-type, rely on the evaluation of a distance metric of the form, 	\begin{equation}
+		d_{ij} = \textrm{min}\left\{ p_{T, i}^{2n}, p_{T, j}^{2n} \right\} \frac{\Delta R_{ij}}{R} \hspace{1 cm} d_{i} = p_{T, i}^{2n} 
+	\end{equation}
+	Where $n=1$ is $k_{T}$, $n=0$ is the Cambridge/Achen and $n=-1$ is the anti-$k_{T}$, $\Delta R_{ij}$ is the angular distance between the jets in $\phi-y (\eta)$ space and $R$ is the size of the jet, which functions as an estimated value of the average jet radius, a parameter set by the analyzer.
+	One clusters particles together by finding $\textrm{min}\left\{ \left\{ d{ij} \right\}, \left\{ d_{i} \right\} \right\}$ and, if the minimum value is one of these $d_{ij}$ then one clusters those two, adds their 4 momentum together and recalculates the distance metric. 
+	If the minimum is a $d_{i}$--called beam distance, then the protojet is promoted to a jet and then removed from the set of candidates. 
+	While these methods are IRC safe \cite{Dokshitzer1997}, they do suffer from a similar tuning problem as the cone methods, where misidentification of jets is possible depending on the $R$ value and $p_{T}$ cutoff, however, both of these parameters can be estimated well and have led to a standard prescription of the anti-$k_{T}$ method at a variety of $R$, usually prioritizing the $R=0.4$ jet as the best balance between exclusion and false positive jet particles. %this needs a citation
+	Of note for the analysis of this system, the $k_{T}$-type algorithms can produce different collections of jet particles and different shapes of the final state of the jet. 
+	The anti-$k_{T}$ method produces circular cones as a function of its metric, thus making it more directly comparable to the previous cone methods, while the $k_{T}$ mehtod will produce final states of various sizes.
+	This discrepancy proves useful in analysis of jet substructure observables, such as the primary family of observables, the Energy-Energy Correlators, in this thesis, as it allows for a lund Plane analysis of the jet structure that combines anti-$k_T$ and $k_{T}$ techniques to improve veracity of the analysis method %cite something here about the Lund Plane
+
 
 \subsection{Quark and Gluon Jets}	
 	In their paper \textit{An Operational Definition of Quark and Gluon Jets} \cite{Komiske2018} Kimiske, Metodiev and Thaler present a theoretical definition of jet flavor with an eye towards application at colliders. 
@@ -19,7 +49,11 @@ Atkin discusses a number of algorithms that fall into two categories: Cone based
 	The determination of relative populations of quark and gluon jets in a dijet sample is one of the primary tasks of this thesis and will be discussed at length in chapters \ref{ch:alphas} and \ref{ch:qgdiscr}. 
 
 	Kimiske et al.--from here referred to as KMT--set their work in the context of discerning the quark-gluon jet populations in samples rather than applying an event-by-event labeling scheme. 
-	KMT's work 
+	KMT's work begins with the consdieration of two samples of data with jets at a fixed $p_{T}$ range with the condition that one be gluon enriched and one quark enriched. 
+	In the specific test case presented in KMT, a Z-jet sample (gluon enriched ) and a $\gamma$-jet sample (quark-enriched) are used. %check if this is true
+
+
+
 \section{Jet Substructure Measurements}
 
 \section{N-Point Energy Correlator}

@@ -92,6 +92,68 @@
       \verb 10.1088/1126-6708/2007/05/086
       \endverb
     \endentry
+    \entry{Dokshitzer1997}{article}{}
+      \name{author}{4}{}{%
+        {{hash=34e77053d916c8695d8d49d3a856026a}{%
+           family={Dokshitzer},
+           familyi={D\bibinitperiod},
+           given={Yu.\bibnamedelimi L.},
+           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=0d677a1fffdb46967ad27ab7b761fcfc}{%
+           family={Leder},
+           familyi={L\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cdf04ed3907aca50a6b25ca75808870c}{%
+           family={Moretti},
+           familyi={M\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fab4c5289b2146af0bcda20af58ba567}{%
+           family={Webber},
+           familyi={W\bibinitperiod},
+           given={B.\bibnamedelimi R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {Springer Science}%
+        {Business Media {LLC}}%
+      }
+      \strng{namehash}{a21b42b01f81eab76d3de64798a7327a}
+      \strng{fullhash}{bc479da46db95806b05bc1ccc68e2f41}
+      \strng{bibnamehash}{bc479da46db95806b05bc1ccc68e2f41}
+      \strng{authorbibnamehash}{bc479da46db95806b05bc1ccc68e2f41}
+      \strng{authornamehash}{a21b42b01f81eab76d3de64798a7327a}
+      \strng{authorfullhash}{bc479da46db95806b05bc1ccc68e2f41}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We investigate modifications to the $k_\perp$-clustering jet algorithm which preserve the advantages of the original Durham algorithm while reducing non-perturbative corrections and providing better resolution of jet substructure. We find that a simple change in the sequence of clustering (combining smaller-angle pairs first), together with the `freezing' of soft resolved jets, has beneficial effects.}
+      \field{day}{11}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP 9708:001,1997}
+      \field{month}{7}
+      \field{number}{08}
+      \field{title}{Better Jet Clustering Algorithms}
+      \field{volume}{1997}
+      \field{year}{1997}
+      \field{dateera}{ce}
+      \field{pages}{001\bibrangedash 001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/1997/08/001
+      \endverb
+      \verb{eprint}
+      \verb hep-ph/9707323
+      \endverb
+      \verb{file}
+      \verb :http\://arxiv.org/pdf/hep-ph/9707323v2:PDF
+      \endverb
+      \keyw{High Energy Physics - Phenomenology (hep-ph),High Energy Physics - Experiment (hep-ex),FOS: Physical sciences}
+      \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'}
+    \endentry
     \entry{Komiske2018}{article}{}
       \name{author}{3}{}{%
         {{hash=d5eeb18a69bdaaab8fdde75adf930604}{%
@@ -120,8 +182,8 @@
       \strng{authorbibnamehash}{e994c533771a47947d823c2aff3b82ca}
       \strng{authornamehash}{5fc199c7e2dbf317f2a2810d2a0171ee}
       \strng{authorfullhash}{e994c533771a47947d823c2aff3b82ca}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{While "quark" and "gluon" jets are often treated as separate, well-defined objects in both theoretical and experimental contexts, no precise, practical, and hadron-level definition of jet flavor presently exists. To remedy this issue, we develop and advocate for a data-driven, operational definition of quark and gluon jets that is readily applicable at colliders. Rather than specifying a per-jet flavor label, we aggregately define quark and gluon jets at the distribution level in terms of measured hadronic cross sections. Intuitively, quark and gluon jets emerge as the two maximally separable categories within two jet samples in data. Benefiting from recent work on data-driven classifiers and topic modeling for jets, we show that the practical tools needed to implement our definition already exist for experimental applications. As an informative example, we demonstrate the power of our operational definition using Z+jet and dijet samples, illustrating that pure quark and gluon distributions and fractions can be successfully extracted in a fully well-defined manner.}
@@ -165,8 +227,8 @@
       \strng{authorbibnamehash}{b47701483174e0ca3d7c6697fc9cded5}
       \strng{authornamehash}{b47701483174e0ca3d7c6697fc9cded5}
       \strng{authorfullhash}{b47701483174e0ca3d7c6697fc9cded5}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0556-2821}
@@ -199,8 +261,8 @@
       \strng{authorbibnamehash}{40fc31706576b4c3d564c16b05f23616}
       \strng{authornamehash}{40fc31706576b4c3d564c16b05f23616}
       \strng{authorfullhash}{40fc31706576b4c3d564c16b05f23616}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0556-2821}
@@ -239,8 +301,8 @@
       \strng{authorbibnamehash}{0fb3deac08ac2ac28889294e3bf4c32d}
       \strng{authornamehash}{0fb3deac08ac2ac28889294e3bf4c32d}
       \strng{authorfullhash}{0fb3deac08ac2ac28889294e3bf4c32d}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1029-8479}
@@ -286,8 +348,8 @@
       \strng{authorbibnamehash}{fee642791cbf5ad42433f2ef747f9f20}
       \strng{authornamehash}{1fa604237c8145c36ee7e98d796ebc9e}
       \strng{authorfullhash}{fee642791cbf5ad42433f2ef747f9f20}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{2470-0029}
@@ -341,8 +403,8 @@
       \strng{authorbibnamehash}{6102af6dcae05cbc1c5a7fc7ecb4a3c6}
       \strng{authornamehash}{20c07241166017b541e1760d7cfd32d0}
       \strng{authorfullhash}{6102af6dcae05cbc1c5a7fc7ecb4a3c6}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1029-8479}
@@ -354,6 +416,326 @@
       \field{year}{2017}
       \verb{doi}
       \verb 10.1007/jhep01(2017)044
+      \endverb
+    \endentry
+    \entry{QGP_droplets}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=9e8ebc3bcf9e18460972f810777ff07b}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           given={PHENIX},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{c8fa564bf40b5daf141da5c9d0b7a068}
+      \strng{fullhash}{c8fa564bf40b5daf141da5c9d0b7a068}
+      \strng{bibnamehash}{c8fa564bf40b5daf141da5c9d0b7a068}
+      \strng{authorbibnamehash}{c8fa564bf40b5daf141da5c9d0b7a068}
+      \strng{authornamehash}{c8fa564bf40b5daf141da5c9d0b7a068}
+      \strng{authorfullhash}{c8fa564bf40b5daf141da5c9d0b7a068}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Physics}
+      \field{number}{3}
+      \field{title}{Creation of quark--gluon plasma droplets with three distinct geometries}
+      \field{volume}{15}
+      \field{year}{2019}
+      \field{pages}{214\bibrangedash 220}
+      \range{pages}{7}
+    \endentry
+    \entry{sPHENIX_TDR}{unpublished}{}
+      \name{author}{1}{}{%
+        {{hash=cfae5091a5fe57275c5f4d3a10fbf6ef}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           prefix={sPHENIX},
+           prefixi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfae5091a5fe57275c5f4d3a10fbf6ef}
+      \strng{fullhash}{cfae5091a5fe57275c5f4d3a10fbf6ef}
+      \strng{bibnamehash}{cfae5091a5fe57275c5f4d3a10fbf6ef}
+      \strng{authorbibnamehash}{cfae5091a5fe57275c5f4d3a10fbf6ef}
+      \strng{authornamehash}{cfae5091a5fe57275c5f4d3a10fbf6ef}
+      \strng{authorfullhash}{cfae5091a5fe57275c5f4d3a10fbf6ef}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{sPHENIX Technical Design Report}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://indico.bnl.gov/event/7081/
+      \endverb
+      \verb{url}
+      \verb https://indico.bnl.gov/event/7081/
+      \endverb
+    \endentry
+    \entry{sPHENIX_whitepaper}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=67c0bb59b8051ac5d31f593c2d5b2c9d}{%
+           family={Adare},
+           familyi={A\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {arXiv}%
+      }
+      \strng{namehash}{3996b72fc823cfaa30ef3a7f2efdc347}
+      \strng{fullhash}{3996b72fc823cfaa30ef3a7f2efdc347}
+      \strng{bibnamehash}{3996b72fc823cfaa30ef3a7f2efdc347}
+      \strng{authorbibnamehash}{3996b72fc823cfaa30ef3a7f2efdc347}
+      \strng{authornamehash}{3996b72fc823cfaa30ef3a7f2efdc347}
+      \strng{authorfullhash}{3996b72fc823cfaa30ef3a7f2efdc347}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this document the PHENIX collaboration proposes a major upgrade to the PHENIX detector at the Relativistic Heavy Ion Collider. This upgrade, sPHENIX, enables an extremely rich jet and beauty quarkonia physics program addressing fundamental questions about the nature of the strongly coupled quark-gluon plasma (QGP), discovered experimentally at RHIC to be a perfect fluid. The startling dynamics of the QGP on fluid-like length scales is an emergent property of quantum chromodynamics (QCD), seemingly implicit in the Lagrangian but stubbornly hidden from view. QCD is an asymptotically free theory, but how QCD manifests as a strongly coupled fluid with specific shear viscosity near $T_C$, as low as allowed by the uncertainty principle, is as fundamental an issue as that of how confinement itself arises.}
+      \field{eprintclass}{nucl-ex}
+      \field{eprinttype}{arXiv}
+      \field{month}{1}
+      \field{title}{An Upgrade Proposal from the PHENIX Collaboration}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.48550/ARXIV.1501.06197
+      \endverb
+      \verb{eprint}
+      \verb 1501.06197
+      \endverb
+      \verb{file}
+      \verb :http\://arxiv.org/pdf/1501.06197v1:PDF
+      \endverb
+      \keyw{Nuclear Experiment (nucl-ex),FOS: Physical sciences}
+    \endentry
+    \entry{sPHENIX_physics_goals}{article}{}
+      \name{author}{28}{}{%
+        {{hash=804b656f29fe41a378524730f411bacf}{%
+           family={Belmont},
+           familyi={B\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7f8c38df0edf936b1edf0f22bba4ee32}{%
+           family={Brewer},
+           familyi={B\bibinitperiod},
+           given={Jasmine},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9b70d1573695554b97ddaae55643f59a}{%
+           family={Brodsky},
+           familyi={B\bibinitperiod},
+           given={Quinn},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=dc10392e97571292fbcb6790ebb04825}{%
+           family={Caucal},
+           familyi={C\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=5de7c8ad298018e00771af581a1d23c5}{%
+           family={Connors},
+           familyi={C\bibinitperiod},
+           given={Megan},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8b86fa096f687c5b4c9cd7922b40aec1}{%
+           family={Djordjevic},
+           familyi={D\bibinitperiod},
+           given={Magdalena},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ae91fbd7bb364ca27cbb423347fcba5e}{%
+           family={Ehlers},
+           familyi={E\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a4f6058283013f2c49b615574658b8b0}{%
+           family={Escobedo},
+           familyi={E\bibinitperiod},
+           given={Miguel\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=e7f0c6b36a46cecbf806724d110cc0f5}{%
+           family={Ferreiro},
+           familyi={F\bibinitperiod},
+           given={Elena\bibnamedelima G.},
+           giveni={E\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=cd5a3cb548195de63e4e7b2eb59e2387}{%
+           family={Giacalone},
+           familyi={G\bibinitperiod},
+           given={Giuliano},
+           giveni={G\bibinitperiod}}}%
+        {{hash=9a84a44dc9fa473bd7010a0b1b547ea3}{%
+           family={Hatta},
+           familyi={H\bibinitperiod},
+           given={Yoshitaka},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=eca66aea41a868f6a495e78f403c219b}{%
+           family={Holguin},
+           familyi={H\bibinitperiod},
+           given={Jack},
+           giveni={J\bibinitperiod}}}%
+        {{hash=53e4e922bb37d6752329bc64b297f4ca}{%
+           family={Ke},
+           familyi={K\bibinitperiod},
+           given={Weiyao},
+           giveni={W\bibinitperiod}}}%
+        {{hash=e420058a0771a425c6d0f20d3f7e8ef8}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Zhong-Bo},
+           giveni={Z\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=d6e7552c865637927e1649455d2326f4}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={Amit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6c448f148486dc170d8a2367c3a372d2}{%
+           family={Mazeliauskas},
+           familyi={M\bibinitperiod},
+           given={Aleksas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0aa785202616e23fca893707b20c799b}{%
+           family={Mehtar-Tani},
+           familyi={M\bibinithyphendelim T\bibinitperiod},
+           given={Yacine},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=96a35bfcbd36f401affffe59751e22e6}{%
+           family={Nukazuka},
+           familyi={N\bibinitperiod},
+           given={Genki},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b876ebf44472a087514f79e0ca70a9c4}{%
+           family={Pablos},
+           familyi={P\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=25af64f2cff325702a12695393e70aaa}{%
+           family={Perepelitsa},
+           familyi={P\bibinitperiod},
+           given={Dennis\bibnamedelima V.},
+           giveni={D\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=57ef15a4fa2d5f27c46ea1d3375ec629}{%
+           family={Rajagopal},
+           familyi={R\bibinitperiod},
+           given={Krishna},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3c5f35118102e6e7ba35f81c42733e08}{%
+           family={Sickles},
+           familyi={S\bibinitperiod},
+           given={Anne\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1dbdf36e9a1750af2791f2fb710b0069}{%
+           family={Strickland},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=373d03f37be209a4cf52c6bea508e70b}{%
+           family={Tywoniuk},
+           familyi={T\bibinitperiod},
+           given={Konrad},
+           giveni={K\bibinitperiod}}}%
+        {{hash=23cea06f221be5b1d174d9b49d5cfb0e}{%
+           family={Vitev},
+           familyi={V\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+        {{hash=3e8745890dde006e6762d3d612306a7e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xin-Nian},
+           giveni={X\bibinithyphendelim N\bibinitperiod}}}%
+        {{hash=acc074c32c96d715ac3201b5bddf2418}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Zhong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f8650c751fc5eb946a54ffe39d9c8ac6}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Fanyi},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier BV}%
+      }
+      \strng{namehash}{b6b93aa5fc783f2b2894b98e10b63d5b}
+      \strng{fullhash}{d5025845365dadcaaeb65bf65df96ee9}
+      \strng{bibnamehash}{d5025845365dadcaaeb65bf65df96ee9}
+      \strng{authorbibnamehash}{d5025845365dadcaaeb65bf65df96ee9}
+      \strng{authornamehash}{b6b93aa5fc783f2b2894b98e10b63d5b}
+      \strng{authorfullhash}{d5025845365dadcaaeb65bf65df96ee9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{sPHENIX is a next-generation detector experiment at the Relativistic Heavy Ion Collider, designed for a broad set of jet and heavy-flavor probes of the Quark-Gluon Plasma created in heavy ion collisions. In anticipation of the commissioning and first data-taking of the detector in 2023, a RIKEN-BNL Research Center (RBRC) workshop was organized to collect theoretical input and identify compelling aspects of the physics program. This paper compiles theoretical predictions from the workshop participants for jet quenching, heavy flavor and quarkonia, cold QCD, and bulk physics measurements at sPHENIX.}
+      \field{day}{24}
+      \field{eprintclass}{nucl-ex}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0375-9474}
+      \field{journaltitle}{Nucl. Phys. A 1043 (2024) 122821}
+      \field{month}{5}
+      \field{title}{Predictions for the sPHENIX physics program}
+      \field{volume}{1043}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{pages}{122821}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.nuclphysa.2024.122821
+      \endverb
+      \verb{eprint}
+      \verb 2305.15491
+      \endverb
+      \verb{file}
+      \verb :Belmont2023 - Predictions for the SPHENIX Physics Program.pdf:PDF
+      \endverb
+      \keyw{Nuclear Experiment (nucl-ex),Nuclear Theory (nucl-th),FOS: Physical sciences}
+      \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'sPHENIX_physics_goals'}
+    \endentry
+    \entry{Lis2020}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=8d031962a785d679fc525e9247f2817a}{%
+           family={Lis},
+           familyi={L\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=cfae5091a5fe57275c5f4d3a10fbf6ef}{%
+           family={Collaboration},
+           familyi={C\bibinitperiod},
+           prefix={sPHENIX},
+           prefixi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{b17f999b984caca2eb063663ec6735ad}
+      \strng{fullhash}{b17f999b984caca2eb063663ec6735ad}
+      \strng{bibnamehash}{b17f999b984caca2eb063663ec6735ad}
+      \strng{authorbibnamehash}{b17f999b984caca2eb063663ec6735ad}
+      \strng{authornamehash}{b17f999b984caca2eb063663ec6735ad}
+      \strng{authorfullhash}{b17f999b984caca2eb063663ec6735ad}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The sPHENIX experiment at the Relativistic Heavy Ion Collider will begin data-taking in 2023. Decisions related to triggering, readout, and reconstruction can have a large effect on the ultimate experimental precision of the sPHENIX calorimeters. The reconstruction of 3-D topological clusters in the analysis of electromagnetic and hadronic particle showers associate energy deposits arising from the same particle and distinguish them from background noise. During data-taking, a complete readout of the 27,000 channels in the electromagnetic and hadronic calorimeters cannot be executed, so a zero-suppression scheme is necessary. We perform detailed GEANT4 studies of the calorimeter response to photons, hadrons, and jets under different simulated electronic noise scenarios and zero-suppression schemes. We study the impact of zero-suppression schemes on the topological cluster performance.}
+      \field{booktitle}{APS Division of Nuclear Physics Meeting Abstracts}
+      \field{eid}{EN.007}
+      \field{month}{1}
+      \field{series}{APS Meeting Abstracts}
+      \field{title}{Characterization of Zero-Suppression in sPHENIX Calorimeters and its Impact on Topological Clusters}
+      \field{volume}{2020}
+      \field{year}{2020}
+      \field{pages}{EN.007}
+      \range{pages}{-1}
+      \verb{urlraw}
+      \verb https://ui.adsabs.harvard.edu/abs/2020APS..DNP.EN007L
+      \endverb
+      \verb{url}
+      \verb https://ui.adsabs.harvard.edu/abs/2020APS..DNP.EN007L
       \endverb
     \endentry
     \entry{sphenix_ZDC}{article}{}
@@ -398,8 +780,8 @@
       \strng{authorbibnamehash}{f0cea1ce43988f43367507fc5e4dbb03}
       \strng{authornamehash}{ad5657d407a204aa1cb16c3d03f689ba}
       \strng{authorfullhash}{f0cea1ce43988f43367507fc5e4dbb03}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0168-9002}
@@ -443,8 +825,8 @@
       \strng{authorbibnamehash}{9e7d0adef704e042621711ffeaea61b5}
       \strng{authornamehash}{8300a7b25d3707743744c27863284bc1}
       \strng{authorfullhash}{9e7d0adef704e042621711ffeaea61b5}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of High Energy Physics}
@@ -457,73 +839,8 @@
       \verb 10.1007/jhep06(2013)108
       \endverb
     \endentry
-    \entry{Dokshitzer1997}{article}{}
-      \name{author}{4}{}{%
-        {{hash=34e77053d916c8695d8d49d3a856026a}{%
-           family={Dokshitzer},
-           familyi={D\bibinitperiod},
-           given={Yu.\bibnamedelimi L.},
-           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
-        {{hash=0d677a1fffdb46967ad27ab7b761fcfc}{%
-           family={Leder},
-           familyi={L\bibinitperiod},
-           given={G.\bibnamedelimi D.},
-           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=cdf04ed3907aca50a6b25ca75808870c}{%
-           family={Moretti},
-           familyi={M\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=fab4c5289b2146af0bcda20af58ba567}{%
-           family={Webber},
-           familyi={W\bibinitperiod},
-           given={B.\bibnamedelimi R.},
-           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{2}{%
-        {Springer Science}%
-        {Business Media {LLC}}%
-      }
-      \strng{namehash}{a21b42b01f81eab76d3de64798a7327a}
-      \strng{fullhash}{bc479da46db95806b05bc1ccc68e2f41}
-      \strng{bibnamehash}{bc479da46db95806b05bc1ccc68e2f41}
-      \strng{authorbibnamehash}{bc479da46db95806b05bc1ccc68e2f41}
-      \strng{authornamehash}{a21b42b01f81eab76d3de64798a7327a}
-      \strng{authorfullhash}{bc479da46db95806b05bc1ccc68e2f41}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{We investigate modifications to the $k_\perp$-clustering jet algorithm which preserve the advantages of the original Durham algorithm while reducing non-perturbative corrections and providing better resolution of jet substructure. We find that a simple change in the sequence of clustering (combining smaller-angle pairs first), together with the `freezing' of soft resolved jets, has beneficial effects.}
-      \field{day}{11}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{JHEP 9708:001,1997}
-      \field{month}{7}
-      \field{number}{08}
-      \field{title}{Better Jet Clustering Algorithms}
-      \field{volume}{1997}
-      \field{year}{1997}
-      \field{dateera}{ce}
-      \field{pages}{001\bibrangedash 001}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1088/1126-6708/1997/08/001
-      \endverb
-      \verb{eprint}
-      \verb hep-ph/9707323
-      \endverb
-      \verb{file}
-      \verb :http\://arxiv.org/pdf/hep-ph/9707323v2:PDF
-      \endverb
-      \keyw{High Energy Physics - Phenomenology (hep-ph),High Energy Physics - Experiment (hep-ex),FOS: Physical sciences}
-      \warn{\item Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'}
-    \endentry
   \enddatalist
   \missing{HCal_Calib}
-  \missing{QGP_droplets}
-  \missing{sPHENIX_TDR}
-  \missing{sPHENIX_physics_goals}
   \missing{tower_slope_hcal}
 \endrefsection
 \endinput

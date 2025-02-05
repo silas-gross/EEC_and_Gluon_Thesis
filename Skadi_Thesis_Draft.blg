@@ -1,29 +1,24 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Skadi_Thesis_Draft.blg'
-[66] biber:340> INFO - === Sun Oct 13, 2024, 06:54:13
-[80] Biber.pm:418> INFO - Reading 'Skadi_Thesis_Draft.bcf'
-[139] Biber.pm:972> INFO - Found 17 citekeys in bib section 0
-[153] Biber.pm:4383> INFO - Processing section 0
-[163] Biber.pm:4574> INFO - Looking for bibtex file 'thesis_refs.bib' for section 0
-[170] bibtex.pm:1713> INFO - LaTeX decoding ...
-[223] bibtex.pm:1518> INFO - Found BibTeX data source 'thesis_refs.bib'
-[337] Utils.pm:398> ERROR - Name "Britton,, C. L." is malformed (consecutive commas): skipping entry 'sPHENIX_whitepaper'
-[372] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[372] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[372] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[372] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[379] bbl.pm:654> INFO - Writing 'Skadi_Thesis_Draft.bbl' with encoding 'UTF-8'
-[384] bbl.pm:757> INFO - Output to Skadi_Thesis_Draft.bbl
-[385] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Komiske2018'
-[385] Biber.pm:130> WARN - Entry with key 'sPHENIX_whitepaper' in section '0' is cited and found but not created (likely due to sourcemap)
-[385] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Larkoski2013' is not an integer - this will probably not sort properly.
-[385] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Dokshitzer1997' is not an integer - this will probably not sort properly.
-[385] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'
-[385] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_bhyl/19ef306b7a38219432f2f2c45157ce77_1727.utf8, line 408, warning: 330 characters of junk seen at toplevel
-[385] Biber.pm:130> WARN - I didn't find a database entry for 'QGP_droplets' (section 0)
-[385] Biber.pm:130> WARN - I didn't find a database entry for 'sPHENIX_TDR' (section 0)
-[385] Biber.pm:130> WARN - I didn't find a database entry for 'sPHENIX_physics_goals' (section 0)
-[385] Biber.pm:130> WARN - I didn't find a database entry for 'HCal_Calib' (section 0)
-[385] Biber.pm:130> WARN - I didn't find a database entry for 'tower_slope_hcal' (section 0)
-[386] Biber.pm:132> INFO - WARNINGS: 11
-[386] Biber.pm:135> INFO - ERRORS: 1
+[123] biber:340> INFO - === Fri Dec 13, 2024, 17:21:27
+[141] Biber.pm:418> INFO - Reading 'Skadi_Thesis_Draft.bcf'
+[219] Biber.pm:972> INFO - Found 18 citekeys in bib section 0
+[247] Biber.pm:4383> INFO - Processing section 0
+[269] Biber.pm:4574> INFO - Looking for bibtex file 'thesis_refs.bib' for section 0
+[283] bibtex.pm:1713> INFO - LaTeX decoding ...
+[386] bibtex.pm:1518> INFO - Found BibTeX data source 'thesis_refs.bib'
+[607] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[607] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[607] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[608] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[624] bbl.pm:654> INFO - Writing 'Skadi_Thesis_Draft.bbl' with encoding 'UTF-8'
+[640] bbl.pm:757> INFO - Output to Skadi_Thesis_Draft.bbl
+[640] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Dokshitzer1997' is not an integer - this will probably not sort properly.
+[640] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'
+[641] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Komiske2018'
+[641] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'sPHENIX_physics_goals'
+[641] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Larkoski2013' is not an integer - this will probably not sort properly.
+[641] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_Xmdg/19ef306b7a38219432f2f2c45157ce77_2243.utf8, line 408, warning: 330 characters of junk seen at toplevel
+[641] Biber.pm:130> WARN - I didn't find a database entry for 'HCal_Calib' (section 0)
+[641] Biber.pm:130> WARN - I didn't find a database entry for 'tower_slope_hcal' (section 0)
+[641] Biber.pm:132> INFO - WARNINGS: 8

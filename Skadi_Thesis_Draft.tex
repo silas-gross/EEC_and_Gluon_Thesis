@@ -61,9 +61,10 @@ At RHIC, sPHENIX's forerunner, the Pioneering High Energy Nuclear Interaction eX
 
 sPHENIX is designed to offer significant upgrades to PHENIX, specifically providing increased coverage with hadronic and electromagnetic calorimeters, increasing effectiveness in studies of jets and heavy flavor at mid-to-high Bjorken x \cite{sPHENIX_TDR}\cite{sPHENIX_whitepaper}\cite{sPHENIX_physics_goals}
 Broadly, sPHENIX can be broken into three categories of subsystem: Calorimeters, Tracking and Event characterization.
-sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liquid helium, which was previously used on the BABAR experiment at SLAC. 
+
+sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liquid helium, which was previously used on the BABAR experiment at SLAC, with the outer hadronic calorimeter sitting on the outer radius of the magnet, as see in fig \ref{fig:sphenix_detector}
 \begin{figure}
-	\includegraphics[scale=0.3]{sphenix_detector}
+	\includegraphics[width=0.9\textwidth]{sphenix_detector}
 	\caption{The sPHENIX detector. The Zero Degree Calorimeter is not picutred but is located further along the beam pipe.}
 	\label{fig:sphenix_detector}
 \end{figure}
@@ -80,6 +81,19 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 		This DAQ configuration is currently used for the calorimeters, the event plane detector and the minimuum bias detector, which allows for faster event building to verify data quality and alignment. 
 		The tracking detectors untilize a streaming readout format that creates event pools that are then associated with beam crossing timings provided by the RHIC clock and can be matched onto the GTM timing in offline analysis. 
 		This process is slow, and the fully implementation of event combination is still under developement, not accounting for event reconstructions which involves track matching across subsystems and will be discussed in section \ref{sec:events}.
+		\subsubsection{ADC Zero Suppression}
+			\label{sec:zero_supr}
+			While this system allows for a simplified readout of the calorimetery system, one expects that, for the average event, most of the towers will be dominated by noise, thus one wastes signifigant computational resources on reading and storing data that will be immediately discarded.
+			This decreases readout rates, runs the risk of filling the storage systems and increases the likelyhood of register errors that require restarting runs; in summary, these null data points give no useful physics and hurt our ability to consitently take data. 
+			The ADC and readout electronic systems are thus equipped with a zero supression system that alows for onboard discrimination and data reduction. 
+			At the FPGA level, each channel is individually evaluated by taking a post-pre measurement and comparing to a threshold derived from studies of average noise in each channel
+			\begin{equation}
+				ADC_{\textrm{sample 6}} - ADC_{\textrm{sample 0}} > E_{\textrm{cut off}}
+				\label{eq:post_pre}
+			\end{equation}
+			Where the evaluation shown in eq (\ref{eq:post_pre}) assumes that the ADC readout has been properly timed in relative to the trigger such that the peak of well formed data should be centered near sample 6 (of 12, 16 or 31), and one can take a cutoff with resolution as wide as a single number and as granular as a tower-by-tower volume. 
+			Studies have been performed at sPHENIX to establish good thresholds for this zero-supression approach and validate that this will not introduce biasing into the detector \cite{Lis2020}. 
+			%put in an averaging noise plot here 
 	\subsection{Hadronic Calorimeters}
 		sPHENIX's power in jet physics comes in large part from its calorimeter systems, including two seperate hadronic calorimeters. 
 		The outer and inner hadronic calorimeter (OHCal and IHCal respectively) are both divided into 24 bins in $\eta$ with coverage of $|\eta| \leq 1.1$  and full $\varphi$ coverage with 64 bins in $\varphi$, grouped in $\varphi$ into 32 sectors in each calorimeter. 
@@ -108,7 +122,7 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 		\subsubsection{Calibration}
 			The hadronic calorimeters were intially calibrated through use of cosmic ray muons, matching the spectra to Monte Carlo 
 			generated through EcoMug and GEANT4 \cite{HCal_Calib}. 
-			This calibration is updated through out the run via continued cosmic ray studies in between physics data taking in addition
+			This calibration is updated throughout the run via continued cosmic ray studies in between physics data taking, in addition
 			to ongoing work on in-situo calibrations using tower-slope methods \cite{tower_slope_hcal}. 
 			These calibrations have yeilded an average conversion factor for the OHCal of and the IHCal of %*put ing the factor here*%
 	\subsection{Electromagnetic Calorimeter}
@@ -133,14 +147,22 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 		While this work does not dive into the subject of spin depenendence, such topics are a natural extension and present an intresting avenue for future studies in this vien to be done with the sPHENIX Run 24 data set. 
 
 \section{Tracking}
-	The sPHENIX tracking system consits of the Silicon vertexing detectors and the gas based trackers.
-	\subsection{INTT}
-	\subsection{Micromegas Vertex Detector}
-	The Micromegas Vertex detector (MVTX) is a silicon based vertexing detector based on a similar system at the ALICE experiment of the Large Hadron Collider (LHC). 
-	\subsection{Time Projection Chamber}
-	The Time Projection Chamber (TPC) 
+	The sPHENIX tracking system consits of the Silicon tracking and vertexing detectors and the gas based trackers.
+	These systems are designed for fast readout, precise momentum resolution and secondary vertex detection
 	\subsection{TPC Outer Tracker}
 	The TPC Outer Tracker (TPOT) was designed as a minimal add-on to improve tracking effeciency and resolution by providing additional track points. 
+	\subsection{Time Projection Chamber}
+	The Time Projection Chamber (TPC) is a gas based detector designed to track 
+	\subsection{Intermediate Silicon Tracking Detector}
+	The INTermediate Silicon Tracking detector (INTT) consists of two layers of semiconducting silicon 
+	\subsection{Micromegas Vertex Detector}
+	The Micromegas Vertex detector (MVTX) is a silicon based vertexing detector based on a similar system at the ALICE experiment of the Large Hadron Collider (LHC).
+	This detector sits closest into the beam pipe and is instrumental in the open heavy flavour program of sPHENIX \cite {sPHENIX_TDR}
+	The MVTX is comprised of three layers of% some number8, 12 and 21%
+	of staves in concentric rings. 
+	Each of these is then further divided into 
+	\subsection{Event Reconstruction and Track Matching}
+	\label{sec:events}
 \section{Event Characterization}
 	\subsection{sPhenix Event Plane Detector}
 	\subsection{Minimum Bias Detector}
@@ -148,22 +170,43 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 	This detector is situated  
 \section{Triggers}
 	The sPHENIX detector has a number of triggers at its disposal to allow for online event type selections for the triggered readout system: the EMCal, the HCals, the ZDC, the MBD, the sEPD and--for run 2024--the TPC.
-	Starting in run 2024, available triggers are Minimum Bias 
-	\section{
+	Starting in run 2024, available triggers are ZDC and Minimum Bias in single and coincidence modes, a restricted vertex Minimum Bias trigger, four jet triggers at differing minimum energy thresholds (6-12 GeV with variation through the run), four photon triggers at differing minimum energy thresholds (2-10 GeV with variation through out the run), random triggers, clock triggers and jet with Minimum Bias triggers. 
+	In order to decrease busy signals, the overall trigger rate is scaled down to 8 kHz, taking 100 Hz of clock triggers as a control, full rate rare event (jet and photon) and minmum bias filling the remaining. 
+	\subsection{Jet Triggers}
+	\subsection{Photon Triggers}
+	\subsection{Minimum Bias Trigger}
 \chapter{Monte Carlo Simulations}
-	We have some of them, there is some data from the 2 and three point energy correlator, and its important for training of our discriminator 
+	For proton-proton collisions, sPHENIX has $~10^8$ fully reconstructed events from Pythia 8 and Herwig 7 for 2$\rightarrow$2 and minimum bias (soft QCD) events that are then reconstructed using GEANT. 
+	While there is a jet sample that has been performed with the detroit tune \cite{Detroit_tune} and there is an existing, equivilent tune for Herwig \cite{New_Haven_Vanderbilt_tune}, in this work, I focus on the default tuned sample as there is a wider dataset from which to draw. 
+	data from the 2 and three point energy correlator, and its important for training of our discriminator 
 \chapter{Determining Backgrounds and Errors}
 \part{Technicalities: The finer points of theory and computing}
 \chapter{The Energy Correlator and the primary vertex}
-	So the energy correlator alows a look back, I guess thats the relevant bit? 
+	\label{ch:ENC_th}
+	Considering the limitations of Calorimetry only measuremet with RHIC one is 
+So the energy correlator alows a look back, I guess thats the relevant bit? 
 	Point being, if the jet points back to the primary vertex, the share of the energy between the jets and the composition of those jets is directly determined by the $2 \rightarrow 2$ scattering and is thus sensitive to the parton distribution functions of the beam particles. 
 	Starting from the definition of the energy correlator given in \cite{Larkoski2013}:
 	\begin{equation}
 		\mathcal{E}_{N} = \int \frac{\dd \Omega}{2} \int \dd \vec{n}_{12} \frac{\langle \varepsilon \left( \vec{n}_1 \right) ... \varepsilon \left(\vec{n}_2 \right)\rangle}{Q^2} \delta\left( \vec{n}_1 \cdot \vec{n}_2 - 2|\vec{n}_1|||\vec{n}_2|\cos  \theta \right)
 		\label{eq:ENC}
 	\end{equation}
+	Where $\varepsilon \left( \vec{n}_i \right)$ is the energy flow operator defined as 
+	\begin{equation}
+		\varepsilon \left( \vec{n}_i \right) = \lim_{r\rightarrow \infty} r^2 \int_{-\infty}^\infty \dd t \vec{n}^i T^0_{i}\left( t, r \vec{n} \right) 
+		\label{eq:enrgy_flow_op}
+	\end{equation}
+	\section{The primary vertex and inteeraction}
+	The goal of this work is to extract gluon distributions from the jet, thus one must consider those intial verticies that (to first order) produce the gluon-quark, gluon-gluon, and quark-quark dijet events. 
+	To this end, one considers the following tree level diagrams 
+%	\begin{figure}
+%		\begin{centering}
+% gotta actually make these feynman diagrams
+	While the processes are not imediately apparent in the final state of the jet, one notes that the two and three point energy correlators give a useful distinction as the jet function can be divided out, leaving a vertex dependent term at $R_L \approx 2 R_{\textrm{jet}}$
+	%vertex dependent terms from OPE of the energy flow 
 \chapter{Jets in Vacuum and the PDF}
 \section{Jet Identification Algorithms}
+\label{sec:toy_jet_id}
 As discussed in chapter \ref{ch:LR}, there are a variety of jet finding algorithms that prioritize different theoretical aspects of the underlying physics while being experimentally realizable \cite{Dokshitzer1997} \cite{Atkin2015}. 
 
 In general, a jet identification algorithm needs to be IRC safe. 
@@ -174,6 +217,31 @@ That is, the jet object needs to display invariance in the Infrared (IR) and Col
 \part{Experimental Output: The Main Event}
 \chapter{So is sPHENIX actually working?}
 \chapter{Measuring the Energy Correlator}
+	\section{Discretization and Efficiency}
+	In the discussion of the energy correlator in chapter \ref{ch:ENC_th}, we had been working in an idealized regime where the measurement is able to be resolved to arbitary size, however, this is limited by the physical reality of the detector systems.
+
+	Even in simulations, one finds that the practical reality of making measurements of the Energy correlator is severly hamstrung by the use of tower size objects rather than the truth particles that make up our idealized toy jets discussed in section \ref{sec:toy_jet_id}. 
+	To study the efficiency loss, one takes the identified truth jet objects from Monte Carlo Simulations (Pythia8 and Herwig for pp; sHIJING, EPOS4, AMPT for AuAu) and runs them through Geant simulations to model detector effects.
+	One then takes the initial truth jet, draws a circle that encloses the truth particles, and projects this out onto the calibrated tower response in each calorimeter, as well as runs an anti-k$_{\textrm{T}}$ jet identification algorithm to simulate jet reconstruction.
+	These three object types (truth jet, projective cone and reconstructed jet) are collected into sets and the measurement of the two- and three-point energy correlators is performed using the defintion in eq \ref{eq:calo_enc}
+	\begin{equation}
+		\begin{split}
+			\left< E2C \left( R_L \right) \right> &= \frac{1}{N_\textrm{events}} \sum_{\textrm{events}} \frac{1}{N_\textrm{jet}} \sum_{N_{\textrm{jets}}} \sum_{i,j \in \textrm{Jet Consitutents}} \frac{E_{i} E_{j}}{E_\textrm{jets}^2} \delta \left( R_{ij} - R_L \right) \\  \\
+			\left< E3C \left( R_L \right) \right> &= \frac{1}{N_\textrm{events}} \sum_{\textrm{events}} \frac{1}{N_\textrm{jet}} \sum_{N_{\textrm{jets}}} \sum_{i,j,k \in \textrm{Jet Consitutents}} \frac{E_{i} E_{j} E_{k}}{E_\textrm{jets}^3} \delta \left( \textrm{max}{R_{i,j,k}} - R_L \right) 
+		\end{split}
+		\label{eq:calo_enc}
+	\end{equation}
+
+	\section{Whole Calorimeter Measurements}
+	While the Energy correlator is generally studied within a jet, one can make use of the whole calorimeter to compare the energy correlator across all angular seperations to characterize the underlying event. 
+	This induces a new computational issue of scale, where the number of calculations goes from $_{50}C_2=1225$ in the HCAL and $_{804} C_2=322,806$ in the EMCAL to $_{1536}C_2 \approx 2.4 \times 10^6$ and $_{24576}C_2 \approx 6 \times 10^8$ in the EMCAL. 
+	However, since pp events have relatively low multiplicity in the calormeters as is seen in fig \ref{fig:calo_pp_multiplicity}, one reduces the computational load signifigantly by preprocessing the towers to remove all towers with energy below some threshold, functionally mirroring the zero-suppression procedure discussed in section \ref{sec:zero_supr}.
+	\begin{figure}
+		\includegraphics[width=0.8\textwidth]{ohcal_occup}%put a multiplity figure in here to justify computational load decrease
+		\caption{Multiplicty in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations}
+		\label{fig:calo_pp_multiplicity}
+	\end{figure}
+	While 
 \chapter{The Power of the ENC: $\alpha_s$ at the few GeV scale}
 \label{ch:alphas}
 \chapter{Event-by-Event distinguishing} 
