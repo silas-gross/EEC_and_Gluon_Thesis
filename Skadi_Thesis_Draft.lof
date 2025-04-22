@@ -1,16 +1,21 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The sPHENIX detector. The Zero Degree Calorimeter is not picutred but is located further along the beam pipe.\relax }}{8}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Top: Presistence Waveform. Bottom: Energy distribution averaged across $10^{5}$ events\relax }}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The sPHENIX detector. The Zero Degree Calorimeter is not picutred but is located further along the beam pipe.\relax }}{9}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Top: Presistence Waveform. Bottom: Energy distribution averaged across $10^{5}$ events\relax }}{12}{figure.caption.13}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces $p+p\rightarrow q \bar {q} + X$ events, these dijet-types are possible to be produced from gluon or quark interchange, probing the square of the gluon or quark distributions\relax }}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces $p+p\rightarrow gg + X$ events, these dijet-types are possible to be produced from gluon or quark interchange, probing the square of the gluon or quark distributions\relax }}{21}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces $p+p\rightarrow gq \left (\bar {q} \right ) + X$ events, these dijet-types are possible only via quark (antiquark) and gluon interactions, hence probing both gluon and quark distributions at once\relax }}{21}{figure.caption.18}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces The continious and discretized calorimeters for phase space and discretization efficiency correction to smooth distribution and reduce bin width selection dependence\relax }}{31}{figure.caption.19}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Multiplicty in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations\relax }}{34}{figure.caption.20}%
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Multiplicty in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations\relax }}{28}{figure.caption.14}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

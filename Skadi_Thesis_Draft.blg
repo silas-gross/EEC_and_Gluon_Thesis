@@ -1,24 +1,24 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
 [0] Config.pm:310> INFO - Logfile is 'Skadi_Thesis_Draft.blg'
-[123] biber:340> INFO - === Fri Dec 13, 2024, 17:21:27
-[141] Biber.pm:418> INFO - Reading 'Skadi_Thesis_Draft.bcf'
-[219] Biber.pm:972> INFO - Found 18 citekeys in bib section 0
-[247] Biber.pm:4383> INFO - Processing section 0
-[269] Biber.pm:4574> INFO - Looking for bibtex file 'thesis_refs.bib' for section 0
-[283] bibtex.pm:1713> INFO - LaTeX decoding ...
-[386] bibtex.pm:1518> INFO - Found BibTeX data source 'thesis_refs.bib'
-[607] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[607] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[607] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[608] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
-[624] bbl.pm:654> INFO - Writing 'Skadi_Thesis_Draft.bbl' with encoding 'UTF-8'
-[640] bbl.pm:757> INFO - Output to Skadi_Thesis_Draft.bbl
-[640] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Dokshitzer1997' is not an integer - this will probably not sort properly.
-[640] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'
-[641] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Komiske2018'
-[641] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'sPHENIX_physics_goals'
-[641] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Larkoski2013' is not an integer - this will probably not sort properly.
-[641] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_Xmdg/19ef306b7a38219432f2f2c45157ce77_2243.utf8, line 408, warning: 330 characters of junk seen at toplevel
-[641] Biber.pm:130> WARN - I didn't find a database entry for 'HCal_Calib' (section 0)
-[641] Biber.pm:130> WARN - I didn't find a database entry for 'tower_slope_hcal' (section 0)
-[641] Biber.pm:132> INFO - WARNINGS: 8
+[60] biber:340> INFO - === Tue Apr 22, 2025, 08:41:11
+[71] Biber.pm:418> INFO - Reading 'Skadi_Thesis_Draft.bcf'
+[125] Biber.pm:972> INFO - Found 24 citekeys in bib section 0
+[135] Biber.pm:4383> INFO - Processing section 0
+[144] Biber.pm:4574> INFO - Looking for bibtex file 'thesis_refs.bib' for section 0
+[154] bibtex.pm:1713> INFO - LaTeX decoding ...
+[227] bibtex.pm:1518> INFO - Found BibTeX data source 'thesis_refs.bib'
+[3000] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3000] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3000] Biber.pm:4203> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[3000] Biber.pm:4209> INFO - No sort tailoring available for locale 'en-US'
+[3083] bbl.pm:654> INFO - Writing 'Skadi_Thesis_Draft.bbl' with encoding 'UTF-8'
+[20642] bbl.pm:757> INFO - Output to Skadi_Thesis_Draft.bbl
+[20642] Biber.pm:130> WARN - legacy month field 'aug' in entry 'Dokshitzer1997' is not an integer - this will probably not sort properly.
+[20643] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Dokshitzer1997'
+[20643] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'Komiske2018'
+[20643] Biber.pm:130> WARN - Overwriting field 'month' with month value from field 'date' for entry 'sPHENIX_physics_goals'
+[20643] Biber.pm:130> WARN - legacy month field 'jun' in entry 'Larkoski2013' is not an integer - this will probably not sort properly.
+[20643] Biber.pm:130> WARN - BibTeX subsystem: /tmp/biber_tmp_96zL/19ef306b7a38219432f2f2c45157ce77_1642.utf8, line 408, warning: 330 characters of junk seen at toplevel
+[20643] Biber.pm:130> WARN - I didn't find a database entry for 'HCal_Calib' (section 0)
+[20643] Biber.pm:130> WARN - I didn't find a database entry for 'tower_slope_hcal' (section 0)
+[20644] Biber.pm:132> INFO - WARNINGS: 8
