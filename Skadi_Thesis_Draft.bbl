@@ -294,6 +294,40 @@
       \verb 10.1007/jhep01(2017)044
       \endverb
     \endentry
+    \entry{Fodor1990}{article}{}
+      \name{author}{1}{}{%
+        {{hash=40fc31706576b4c3d564c16b05f23616}{%
+           family={Fodor},
+           familyi={F\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society (APS)}%
+      }
+      \strng{namehash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{fullhash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{bibnamehash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{authorbibnamehash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{authornamehash}{40fc31706576b4c3d564c16b05f23616}
+      \strng{authorfullhash}{40fc31706576b4c3d564c16b05f23616}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0556-2821}
+      \field{journaltitle}{Physical Review D}
+      \field{month}{3}
+      \field{number}{5}
+      \field{title}{How to see the differences between quark and gluon jets}
+      \field{volume}{41}
+      \field{year}{1990}
+      \field{pages}{1726\bibrangedash 1730}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1103/physrevd.41.1726
+      \endverb
+    \endentry
     \entry{Komiske2018}{article}{}
       \name{author}{3}{}{%
         {{hash=d5eeb18a69bdaaab8fdde75adf930604}{%
@@ -382,40 +416,6 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1103/physrevd.39.2550
-      \endverb
-    \endentry
-    \entry{Fodor1990}{article}{}
-      \name{author}{1}{}{%
-        {{hash=40fc31706576b4c3d564c16b05f23616}{%
-           family={Fodor},
-           familyi={F\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society (APS)}%
-      }
-      \strng{namehash}{40fc31706576b4c3d564c16b05f23616}
-      \strng{fullhash}{40fc31706576b4c3d564c16b05f23616}
-      \strng{bibnamehash}{40fc31706576b4c3d564c16b05f23616}
-      \strng{authorbibnamehash}{40fc31706576b4c3d564c16b05f23616}
-      \strng{authornamehash}{40fc31706576b4c3d564c16b05f23616}
-      \strng{authorfullhash}{40fc31706576b4c3d564c16b05f23616}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0556-2821}
-      \field{journaltitle}{Physical Review D}
-      \field{month}{3}
-      \field{number}{5}
-      \field{title}{How to see the differences between quark and gluon jets}
-      \field{volume}{41}
-      \field{year}{1990}
-      \field{pages}{1726\bibrangedash 1730}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1103/physrevd.41.1726
       \endverb
     \endentry
     \entry{QGP_droplets}{article}{}
@@ -669,8 +669,8 @@
       \strng{authorbibnamehash}{d5025845365dadcaaeb65bf65df96ee9}
       \strng{authornamehash}{b6b93aa5fc783f2b2894b98e10b63d5b}
       \strng{authorfullhash}{d5025845365dadcaaeb65bf65df96ee9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{sPHENIX is a next-generation detector experiment at the Relativistic Heavy Ion Collider, designed for a broad set of jet and heavy-flavor probes of the Quark-Gluon Plasma created in heavy ion collisions. In anticipation of the commissioning and first data-taking of the detector in 2023, a RIKEN-BNL Research Center (RBRC) workshop was organized to collect theoretical input and identify compelling aspects of the physics program. This paper compiles theoretical predictions from the workshop participants for jet quenching, heavy flavor and quarkonia, cold QCD, and bulk physics measurements at sPHENIX.}
@@ -717,8 +717,8 @@
       \strng{authorbibnamehash}{b17f999b984caca2eb063663ec6735ad}
       \strng{authornamehash}{b17f999b984caca2eb063663ec6735ad}
       \strng{authorfullhash}{b17f999b984caca2eb063663ec6735ad}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The sPHENIX experiment at the Relativistic Heavy Ion Collider will begin data-taking in 2023. Decisions related to triggering, readout, and reconstruction can have a large effect on the ultimate experimental precision of the sPHENIX calorimeters. The reconstruction of 3-D topological clusters in the analysis of electromagnetic and hadronic particle showers associate energy deposits arising from the same particle and distinguish them from background noise. During data-taking, a complete readout of the 27,000 channels in the electromagnetic and hadronic calorimeters cannot be executed, so a zero-suppression scheme is necessary. We perform detailed GEANT4 studies of the calorimeter response to photons, hadrons, and jets under different simulated electronic noise scenarios and zero-suppression schemes. We study the impact of zero-suppression schemes on the topological cluster performance.}

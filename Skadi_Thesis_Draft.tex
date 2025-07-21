@@ -137,7 +137,7 @@
 	However, since pp events have relatively low multiplicity in the calormeters as is seen in fig \ref{fig:calo_pp_multiplicity}, one reduces the computational load signifigantly by preprocessing the towers to remove all towers with energy below some threshold, functionally mirroring the zero-suppression procedure discussed in section \ref{sec:zero_supr}.
 
 	\begin{figure}
-		\includegraphics[width=0.8\textwidth]{ohcal_occup}%put a multiplity figure in here to justify computational load decrease
+		\includegraphics[width=0.8\textwidth]{ohcal_occup}%put a multiplicity figure in here to justify computational load decrease
 		\caption{Multiplicty in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations}
 		\label{fig:calo_pp_multiplicity}
 	\end{figure}
@@ -148,9 +148,13 @@
 	Consider the following ansatz of a symmetric distribution $S=\{-2, -2, -1, -1, -1, -1, 1, 1, 1, 1, 2, 2\}$, then one considers the sum of  the product of pairs, being the numerator of the two point energy correlator would be the only way to have the noise contribution go to zero
 	\begin{equation}
 		\begin{split}
-			PS & = (-2)^2 + (-2\cdot-1) \times 8 + (-2 \cdot 1) \times 8 + (-2\cdot 2) \times 2 + (-1)^2 \times 3! \\ 
-			& \hspace{0.5 cm} + (-1 \cdot 1) \times 16+ (-1 \cdot 2) \times 8  + (1)^2 \times 3! + (1 \cdot 2) \times 8 + 2^2 \\
-			&= -4 
+			PS & = (-2)^2 + (-2\cdot-1) \times 4 + (-2 \cdot 1) \times 4 + (-2\cdot 2) \times 2  \\ 
+			& \hspace{0.5 cm} (-2 \cdot -1) \times 4 + (-2 \cdot 1 ) \times 4 + (-2 \cdot 2 ) \times 2 \\ 
+			& \hspace{0.5 cm}+ (-1)^2 \times \left(  3 +  2 + 1\right) + (-1 \cdot 1) \times 4 \times 4  + (-1 \cdot 2 ) \times 4 \times 2 \\ 
+			& \hspace{0.5 cm}+ (1)^2 \times \left(   3 +  2 + 1\right) + (1 \cdot 2 ) \times 4 \times 2 \\ 
+			& \hspace{0.5 cm} + 2 \cdot 2 \\ \\
+			&= -4 + -8 + - 26 + 22 +4\\
+			&= -12
 		\end{split}
 		\label{eq:simple_sym_eec}
 	\end{equation} 

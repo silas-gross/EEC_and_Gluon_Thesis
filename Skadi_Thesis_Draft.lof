@@ -5,16 +5,16 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces $p+p\rightarrow q \bar {q} + X$ events, these dijet-types are possible to be produced from gluon or quark interchange, probing the square of the gluon or quark distributions\relax }}{22}{figure.caption.16}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces $p+p\rightarrow gg + X$ events, these dijet-types are possible to be produced from gluon or quark interchange, probing the square of the gluon or quark distributions\relax }}{22}{figure.caption.17}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces $p+p\rightarrow gq \left (\bar {q} \right ) + X$ events, these dijet-types are possible only via quark (antiquark) and gluon interactions, hence probing both gluon and quark distributions at once\relax }}{22}{figure.caption.18}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces $p+p\rightarrow q \bar {q} + X$ events, these dijet-types are possible to be produced from gluon or quark interchange, probing the square of the gluon or quark distributions\relax }}{23}{figure.caption.16}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces $p+p\rightarrow gg + X$ events, these dijet-types are possible to be produced from gluon or quark interchange, probing the square of the gluon or quark distributions\relax }}{23}{figure.caption.17}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces $p+p\rightarrow gq \left (\bar {q} \right ) + X$ events, these dijet-types are possible at the tree level only via quark (antiquark) and gluon interactions, hence probing both gluon and quark distributions at once\relax }}{23}{figure.caption.18}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces The continious and discretized calorimeters for phase space and discretization efficiency correction to smooth distribution and reduce bin width selection dependence\relax }}{32}{figure.caption.19}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Multiplicty in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations\relax }}{35}{figure.caption.20}%
+\contentsline {figure}{\numberline {10.1}{\ignorespaces The continious and discretized calorimeters for phase space and discretization efficiency correction to smooth distribution and reduce bin width selection dependence\relax }}{33}{figure.caption.19}%
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Multiplicty in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations\relax }}{36}{figure.caption.20}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -23,3 +23,4 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Select plots of specific cases of the integrand in equation (\ref {eq:gamma_int}). The gamma function is always positive for positive real numbers, thus the integrand is always positive and will net a positive result when evaluated\relax }}{53}{figure.caption.23}%

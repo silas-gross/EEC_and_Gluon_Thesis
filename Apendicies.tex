@@ -4,20 +4,20 @@
 	In the ansatz reflected in equation (\ref{eq:simple_sym_eec}), a symmetric set with a distribution roughly approximating a gaussian was utilized, however, we can go beyond that to properly show this result is the case in a set drawn from a generalized Gaussian distribution
 	\newline
 	\begin{proof}{}
-		We begin with a gaussian distribution $P(x)$ and sample points from it such that we construct a "Gaussian sample set" with the following properties 
+		We begin with a gaussian distribution $P(x)$ with amplitude $A$ and sample points from it such that we construct a "Gaussian sample set" with the following properties 
 		\newline
 		\begin{definition}[Gaussian Sample Set]
 		\label{def:GSS}
 		Take a set S that is constructed of points randomly sampled such that  
 		\begin{equation}
-			S \approx P(x)=  e^\frac{-x^2}{\sigma}
+			S \approx P(x)=  \frac{A}{\sqrt{2 \pi \sigma}} e^\frac{-x^2}{\sigma}
 		\end{equation}
 		Which gives the following properties
 		\begin{enumerate}
 		\item{ $ S= \left\{ x | \bar{x} = \delta_{\bar{x}} \right\}$} 
 		\item{ $ \frac{1}{N} \sum_{x\in S} x^2 = \left( \sigma + \delta_\sigma \right)^2$}
 		\item{ $ \left| \delta_{\bar{x}} \right|, \left| \delta_\sigma \right| << 1 $}
-		\item{ $\lim_{N\rightarrow \inf} \left| \delta_{\bar{x}} \right|, \left| \delta_\sigma \right| = 0 $}
+		\item{ $\lim_{N\rightarrow \infty} \left| \delta_{\bar{x}} \right|, \left| \delta_\sigma \right| = 0 $}
 		\end{enumerate}
 		
 		\end{definition}
@@ -34,7 +34,7 @@
 		\end{equation}
 		\textit{Product-sum algorithm for the sample set S. Initially the PS varaiable is set at 0}
 		\end{algo}
-		Using the properties of S noted in definition \ref{def:GSS}, one notes that for any sampled value x, there should be approximately $n= \floor{\frac{1}{\sqrt{2 \pi (\sigma+ \delta_\sigma}} e^{\frac{\left( x - \delta_{\bar{x}} \right)^2}{\sigma+\delta_\sigma}}}$ of the same value. 
+		Using the properties of S noted in definition \ref{def:GSS}, one notes that for any sampled value x, there should be approximately $n= \floor{\frac{A}{\sqrt{2 \pi (\sigma+ \delta_\sigma)}} e^{\frac{\left( x - \delta_{\bar{x}} \right)^2}{\sigma+\delta_\sigma}}}$ of the same value. 
 		In fact, by including these small corrections and an additional small correction $\left|\delta_{n, x}\right| << 1$  we fix this number to the Gaussian curve within some fluctations. 
 	With this in mind, one breaks the contributions to the Product-sum into two categories, the $y=x$ and $y \neq x$ case. 
 	For the first case, the contribution is simply 
@@ -51,7 +51,36 @@
 	\end{equation}
 	With a sufficiently high number of samples, we can shift to the continuum limit and write
 	\begin{equation}
-		\tilde{PS} = \int_{-\infty}^{\infty} \dd x \hspace{0.2 cm} \left[ x^2 \Gamma(\left(n(x) - 1\right)) + \int_{x}^{\infty} \dd y \frac{xy}{2 \pi \left( \sigma + \delta \sigma \right)} e^{\frac{- \left( x - \delta_{\bar{x}} \right)^2 - \left( y - \delta_{\bar{x}} \right)^2}{2 \left( \sigma + \delta \sigma\right)}}   \right]
+		\widetilde{PS} = \int_{-x_0}^{x_0} \dd x \hspace{0.2 cm} \left[ x^2 \Gamma(\left(n(x)\right)) + \int_{x}^{x_{0}} \dd y \frac{xy}{2 \pi \left( \sigma + \delta \sigma \right)} e^{\frac{- \left( x - \delta_{\bar{x}} \right)^2 - \left( y - \delta_{\bar{x}} \right)^2}{2 \left( \sigma + \delta \sigma\right)}}   \right]
 	\end{equation}
+	where $x_0$ is a limit set by finding the point at which there is only 1 measurable point
+		\begin{equation}
+			n(x_0) = 1 \Rightarrow x_0 =\delta_{\bar{x}}+ \sqrt{2 (\sigma+\delta \sigma) \ln A - (\sigma+\delta \sigma) \ln \left[ 2 \pi \left( \sigma + \delta \sigma \right) \right]}
+		\end{equation}
+	Taking the part of this integral where of $x \neq y$, one finds
+		\begin{equation}
+			\begin{split}
+				\widetilde{PS}_{x\neq y} &= \int_{-x_0}^{x_0} \dd x \frac{x}{2 \pi \left( \sigma + \delta \sigma \right)} e^{\frac{- \left( x - \delta_{\bar{x}} \right)^2}{2 \left( \sigma + \delta \sigma \right) }} \int_{x_0 - \delta_{\bar{y}} }^{x_0} \dd w \left( w + \delta_{\bar{y}} \right) e^{\frac{- w^2}{2 \left( \sigma + \delta \sigma \right)} }\\
+				&= \int_{-\infty}^{\infty} \dd x \frac{x}{2 \pi \left( \sigma + \delta \sigma \right)} e^{\frac{- \left( x - \delta_{\bar{x}} \right)^2}{2 \left( \sigma + \delta \sigma \right) }} \left[ \left( \sigma + \delta \sigma \right) e^{\frac{- \left( x - \delta_{\bar{y}} \right)^2}{2 \left( \sigma + \delta \sigma \right) }} + \delta_{\bar{y}} \int_{x-\delta_{\bar{y}}}^\infty \dd w e^{\frac{- w^2}{2 \left( \sigma + \delta \sigma \right) }} \right]\\
+				&= \int_{-\infty}^{\infty} \dd x \frac{x}{2 \pi} e^{\frac{- \left( x - \frac{\delta_{\bar{x}} + \delta_{\bar{y}}}{2} \right)}{\sigma + \delta \sigma} + \frac{\left( \delta_{\bar{x}} - \delta_{\bar{y}}\right)^2}{4(\sigma+ \delta \sigma)}} + \int_{-\infty}^{\infty} \dd x \frac{x}{2 \pi \left( \sigma + \delta \sigma \right)} e^{\frac{- \left( x - \delta_{\bar{x}} \right)^2}{2 \left( \sigma + \delta \sigma \right) }}\delta_{\bar{y}} \int_{x-\delta_{\bar{y}}}^\infty \dd w e^{\frac{- w^2}{2 \left( \sigma + \delta \sigma \right) }} \\
+				&= \frac{1}{2\pi} \frac{\delta_{\bar{x}} + \delta_{\bar{y}}}{2} \sqrt{\pi \left( \sigma + \delta \sigma \right) } e^{\frac{\left( \delta_{\bar{x}} - \delta_{\bar{y}}\right)^2}{4(\sigma+ \delta \sigma)}} +  \int_{-\infty}^{\infty} \dd x \frac{x}{2 \pi \left( \sigma + \delta \sigma \right)} e^{\frac{- \left( x - \delta_{\bar{x}} \right)^2}{2 \left( \sigma + \delta \sigma \right) }} \delta_{\bar{y}} \int_{x-\delta_{\bar{y}}}^\infty \dd w e^{\frac{- w^2}{2 \left( \sigma + \delta \sigma \right) }} \\
+				& = 0   +  \int_{-\infty}^{\infty} \dd x \frac{x}{2 \pi \left( \sigma + \delta \sigma \right)} e^{\frac{- \left( x - \delta_{\bar{x}} \right)^2}{2 \left( \sigma + \delta \sigma \right) }} \times 0 \\ 
+				&= 0 
+			\end{split}
+		\end{equation}
+	Where the last step notes that $\lim_{N \rightarrow \infty} \delta_{\bar{x}}, \delta_{\bar{y}} = 0 $ by property 4 of the definition \ref{def:GSS}, but is not necissairly 0 for a discrete sample set 
 
+	Thus the product sum goes simply to 
+	\begin{equation}
+		\widetilde{PS} = \int_{- x_0}^{x_0} \dd x \hspace{0.5 cm} x^2 \Gamma\left( \frac{A}{\sqrt{2 \pi (\sigma + \delta \sigma)}} e^{\frac{-\left(x- \delta_{\bar{x}}\right)^2}{2(\sigma+ \delta\sigma)}} \right) 
+		\label{eq:gamma_int}
+	\end{equation}
+	Which is always positive, given that the integrand is always positive as is shown in fig. \ref{fig:gamma_integrand}, thus the product sum is non-zero even in the continuum limit, thus for a gaussian distribution centered around 0, the sum of two point products is not garunteed to be positive and thus the symmetry of the distribution can not be exploited to cancel out the noise profile
 	\end{proof}
+	\begin{figure}
+		\begin{centering}
+			\includegraphics[width=\textwidth]{product_sum_function}
+			\caption{Select plots of specific cases of the integrand in equation (\ref{eq:gamma_int}). The gamma function is always positive for positive real numbers, thus the integrand is always positive and will net a positive result when evaluated}
+			\label{fig:gamma_integrand}
+		\end{centering}
+	\end{figure}

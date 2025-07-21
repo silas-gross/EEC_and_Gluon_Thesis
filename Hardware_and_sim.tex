@@ -43,24 +43,24 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 			%put in an averaging noise plot here 
 	\subsection{Hadronic Calorimeters}
 		sPHENIX's power in jet physics comes in large part from its calorimeter systems, including two seperate hadronic calorimeters. 
-		The outer and inner hadronic calorimeter (OHCal and IHCal respectively) are both divided into 24 bins in $\eta$ with coverage of $|\eta| \leq 1.1$  and full $\varphi$ coverage with 64 bins in $\varphi$, grouped in $\varphi$ into 32 sectors in each calorimeter. 
+		The outer and inner hadronic calorimeter (OHCal and IHCal respectively) are both divided into 24 bins in $\eta$ with coverage of $|\eta| \leq 1.1$  and full $\varphi$ coverage with 64 bins in $\varphi$, grouped into 32 sectors across $\eta$ in each calorimeter. 
 		Each hadronic calorimeter therefore has tower size of $\delta \eta = 0.092$ and $\delta \varphi=0.098$.  
 		The outer hadronic calorimeter is constructed of steel and sits outside of the magnet, with inner radius of $r=1.82$ m and outer radius of $r=2.69$ m. 
 		The inner hadronic calormeter is constructed of aluminum and sits just inside the magnet, with inner radus of $r=1/16$ m and outer radius of $r=1.37$ m. 
-		Each tower corresponds to a readout board that sums readout from four scintillator paddles embeded into the calorimeter as show in fig. \ref{fig:hcal}. 
+		Each tower corresponds to a readout board that sums readout from four scintillator paddles in the inner HCAL and five scinitillator paddles in the outer HCAL embeded into the calorimeter as show in fig. \ref{fig:hcal}. 
 		These interface boards form a single readout channel, and can be indvidually teste via a pulser system that injects charge into the interface board testing readback independent of scintillator response, and LED system that injects a fixed pulse of light into the scintilators to test behavior of the Silicon Photomultipliers (SiPMs). 
 		Output of each of these systems is shown in fig \ref{fig:hcal_tests}
 		\begin{figure}
 			%need to figure out how to do the subfigures for this 
 			\begin{subfigure}[t]{0.4\textwidth}
-				\includegraphics[width=6cm]{pulser_waveform}
-				\includegraphics[width=6cm]{ihcal_pulser.png}
+				\includegraphics[width=0.9\textwidth]{pulser_waveform}
+				\includegraphics[width=0.9\textwidth]{ihcal_pulser.png}
 				\caption{Charge Injection Pulse. This system allows for direct testing of electronics without detector response}
 			\end{subfigure}
 			\hfill
 			\begin{subfigure}[t]{0.4\textwidth}
-				\includegraphics[width=6.5cm]{led_waveform}
-				\includegraphics[width=6cm]{ihcal_led}
+				\includegraphics[width=0.9\textwidth]{ohcal_led_signal.png}
+				\includegraphics[width=0.9\textwidth]{ohcal_led_energy.png}
 				\caption{LED pulse. This allows for testing of the full readback system and light response}
 			\end{subfigure}
 				\caption{Top: Presistence Waveform. Bottom: Energy distribution averaged across $10^{5}$ events}
@@ -76,13 +76,14 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 		Moving in one layer from the hadronic calorimeter, the Electromagnetic Calorimeter (EMCal) has the same coverage in $\eta-\varphi$ space,
 		but has 16 times as many towers with 96 bins in $\eta$ and 256 bins in $\varphi$. 
 		The EMCal is constructed of blocks of tungsten with embedded scintilationg fibers, 
-		and had inner radius $r=0.9$ m and outer radius of $r=1.16$ m.
+		and has inner radius $r=0.9$ m and outer radius of $r=1.16$ m.
 		Similarly to the HCals, the EMCal is also equipped with a pulser and LED, although the increased number of towers and higher varaiblility 
 		in response requires that different pulse widths be used for seperate sets of towers to prevent saturation and clipping on the LED pulse.
 		\subsubsection{Calibration}
 			The EMCal was calibrated to the $\pi^0$ mass through the $\pi^0 \rightarrow \gamma \gamma$ decay channel with additional corrections
 			applied via the tower slope. 
-			The mean $m_{\pi^0}$ and width are used as quality assurance plots to monitor radiation damage to the EMCal on an ongoing basis.
+			The mean $m_{\pi^0}$ and width are used as quality assurance plots to monitor radiation damage to the EMCal on an ongoing baisis and provide updated calibrations throughout the runs.
+
 	\subsection{Zero Degree Calorimeter}
 		The Zero Degree Calorimeter (ZDC) is a small transverse energy hadron detector that positioned outside of the experiment hall, in the tunnels along the beam pipe, 18 m from the interaction point on both side.
 		The ZDC is used to detect spectator neutrons to allow for the calculation of multiplicity and event geometry, making it an overlapping detector between the calorimeters and the event characterization \cite{sphenix_ZDC}. 
@@ -95,18 +96,18 @@ sPHENIX is constructed around a 1.5 Tesla superconducting magnet, cooled by liqu
 
 \section{Tracking}
 	The sPHENIX tracking system consits of the Silicon tracking and vertexing detectors and the gas based trackers.
-	These systems are designed for fast readout, precise momentum resolution and secondary vertex detection
-	\subsection{TPC Outer Tracker}
-	The TPC Outer Tracker (TPOT) was designed as a minimal add-on to improve tracking effeciency and resolution by providing additional track points. 
+	These systems are designed for fast readout, precise momentum resolution and secondary vertex detection. 
+	However, this thesis does not make use of the tracking data as track to calorimeter matching is still undergoing developement at the time of this analysis, thus the tracking detectors are briefly mentioned here but are not expanded upon in detail
 	\subsection{Time Projection Chamber}
-	The Time Projection Chamber (TPC) is a gas based detector designed to track 
+	The Time Projection Chamber (TPC) is a gas based detector designed to track charged particles through drift 
+	\subsection{TPC Outer Tracker}
+	Breaking with the established convention, the next detector is found at larger radial distnace from the interaction point than the TPC. The TPC Outer Tracker (TPOT) was designed as a minimal add-on to improve tracking effeciency and resolution by providing additional track points. 
 	\subsection{Intermediate Silicon Tracking Detector}
 	The INTermediate Silicon Tracking detector (INTT) consists of two layers of semiconducting silicon 
 	\subsection{Micromegas Vertex Detector}
 	The Micromegas Vertex detector (MVTX) is a silicon based vertexing detector based on a similar system at the ALICE experiment of the Large Hadron Collider (LHC).
 	This detector sits closest into the beam pipe and is instrumental in the open heavy flavour program of sPHENIX \cite {sPHENIX_TDR}
-	The MVTX is comprised of three layers of% some number8, 12 and 21%
-	of staves in concentric rings. 
+	The MVTX is comprised of three layers of 8, 12 and 21 staves in concentric rings. 
 	Each of these is then further divided into 
 	\subsection{Event Reconstruction and Track Matching}
 	\label{sec:events}
@@ -247,11 +248,11 @@ So the energy correlator alows a look back, I guess thats the relevant bit?
 						(d)--[gluon](b);
 						(d)--[fermion](e);
 						(e)--[gluon](f);
-						(g)--[fermion](e);
+						(e)--[fermion](g);
 					};
 				\end{feynman}
 			\end{tikzpicture}
-			\caption{ $p+p\rightarrow gq \left(\bar{q} \right) + X$ events, these dijet-types are possible only via quark (antiquark) and gluon interactions, hence probing both gluon and quark distributions at once}
+			\caption{ $p+p\rightarrow gq \left(\bar{q} \right) + X$ events, these dijet-types are possible at the tree level only via quark (antiquark) and gluon interactions, hence probing both gluon and quark distributions at once}
 			\label{fig:qg_jets_fd}
 		\end{centering}
 	\end{figure}
@@ -267,5 +268,6 @@ In general, a jet identification algorithm needs to be IRC safe.
 That is, the jet object needs to display invariance in the Infrared (IR) and Collinear regimes, managing real-virtual cancellation and keeping results meaningful for emission and splitting respectively. 
 
 \chapter{So exactly how intelligent is AI}
+
 \chapter{Proof Solving and Validation as Quality Control Mechanisms}
 
