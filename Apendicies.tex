@@ -1,10 +1,10 @@
 \chapter{Proof that a Symmetric Energy Distribution fails to cancel in the Product-Sum}
 \chaptermark{Product-Sum Proof}
 \label{ch:symm_sample}
-	In the ansatz reflected in equation (\ref{eq:simple_sym_eec}), a symmetric set with a distribution roughly approximating a gaussian was utilized, however, we can go beyond that to properly show this result is the case in a set drawn from a generalized Gaussian distribution
+	In the ansatz reflected in equation (\ref{eq:simple_sym_eec}), a symmetric set with a distribution roughly approximating a Gaussian was utilized, however, we can go beyond that to properly show this result is the case in a set drawn from a generalized Gaussian distribution
 	\newline
 	\begin{proof}{}
-		We begin with a gaussian distribution $P(x)$ with amplitude $A$ and sample points from it such that we construct a "Gaussian sample set" with the following properties 
+		We begin with a Gaussian distribution $P(x)$ with amplitude $A$ and sample points from it such that we construct a "Gaussian sample set" with the following properties 
 		\newline
 		\begin{definition}[Gaussian Sample Set]
 		\label{def:GSS}
@@ -32,10 +32,10 @@
 				& PS = PS + ( x * y ) \hspace{1.5 cm} \forall y \in S \\	
 			\end{split}	
 		\end{equation}
-		\textit{Product-sum algorithm for the sample set S. Initially the PS varaiable is set at 0}
+		\textit{Product-sum algorithm for the sample set S. Initially the PS variable is set at 0}
 		\end{algo}
 		Using the properties of S noted in definition \ref{def:GSS}, one notes that for any sampled value x, there should be approximately $n= \floor{\frac{A}{\sqrt{2 \pi (\sigma+ \delta_\sigma)}} e^{\frac{\left( x - \delta_{\bar{x}} \right)^2}{\sigma+\delta_\sigma}}}$ of the same value. 
-		In fact, by including these small corrections and an additional small correction $\left|\delta_{n, x}\right| << 1$  we fix this number to the Gaussian curve within some fluctations. 
+		In fact, by including these small corrections and an additional small correction $\left|\delta_{n, x}\right| << 1$  we fix this number to the Gaussian curve within some fluctuations. 
 	With this in mind, one breaks the contributions to the Product-sum into two categories, the $y=x$ and $y \neq x$ case. 
 	For the first case, the contribution is simply 
 	\begin{equation}
@@ -68,14 +68,14 @@
 				&= 0 
 			\end{split}
 		\end{equation}
-	Where the last step notes that $\lim_{N \rightarrow \infty} \delta_{\bar{x}}, \delta_{\bar{y}} = 0 $ by property 4 of the definition \ref{def:GSS}, but is not necissairly 0 for a discrete sample set 
+	Where the last step notes that $\lim_{N \rightarrow \infty} \delta_{\bar{x}}, \delta_{\bar{y}} = 0 $ by property 4 of the definition \ref{def:GSS}, but is not necessarily 0 for a discrete sample set 
 
 	Thus the product sum goes simply to 
 	\begin{equation}
 		\widetilde{PS} = \int_{- x_0}^{x_0} \dd x \hspace{0.5 cm} x^2 \Gamma\left( \frac{A}{\sqrt{2 \pi (\sigma + \delta \sigma)}} e^{\frac{-\left(x- \delta_{\bar{x}}\right)^2}{2(\sigma+ \delta\sigma)}} \right) 
 		\label{eq:gamma_int}
 	\end{equation}
-	Which is always positive, given that the integrand is always positive as is shown in fig. \ref{fig:gamma_integrand}, thus the product sum is non-zero even in the continuum limit, thus for a gaussian distribution centered around 0, the sum of two point products is not garunteed to be positive and thus the symmetry of the distribution can not be exploited to cancel out the noise profile
+	Which is always positive, given that the integrand is always positive as is shown in fig. \ref{fig:gamma_integrand}, thus the product sum is non-zero even in the continuum limit, thus for a Gaussian distribution centered around 0, the sum of two point products is not guaranteed to be positive and thus the symmetry of the distribution can not be exploited to cancel out the noise profile
 	\end{proof}
 	\begin{figure}
 		\begin{centering}

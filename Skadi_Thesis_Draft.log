@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.5.21)  11 JUL 2025 12:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.5.21)  26 SEP 2025 10:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Skadi_Thesis_Draft
+**Skadi_Thesis_Draft.tex
 (./Skadi_Thesis_Draft.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
@@ -1462,7 +1462,7 @@ Chapter 2.
 
 
 ]
-<sphenix_detector.png, id=526, 1355.0625pt x 787.94376pt>
+<sphenix_detector.png, id=521, 1355.0625pt x 787.94376pt>
 File: sphenix_detector.png Graphic file (type png)
 <use sphenix_detector.png>
 Package pdftex.def Info: sphenix_detector.png  used on input line 14.
@@ -1475,12 +1475,12 @@ LaTeX Warning: Reference `fig:hcal' on page 12 undefined on input line 50.
 
 pdfTeX warning: pdflatex (file ./pulser_waveform.pdf): PDF inclusion: found PDF
  version <1.7>, but at most version <1.5> allowed
-<pulser_waveform.pdf, id=541, 718.3638pt x 451.6875pt>
+<pulser_waveform.pdf, id=536, 718.3638pt x 451.6875pt>
 File: pulser_waveform.pdf Graphic file (type pdf)
 <use pulser_waveform.pdf>
 Package pdftex.def Info: pulser_waveform.pdf  used on input line 56.
 (pdftex.def)             Requested size: 169.10808pt x 106.32576pt.
-<ihcal_pulser.png, id=542, 818.05624pt x 536.50438pt>
+<ihcal_pulser.png, id=537, 818.05624pt x 536.50438pt>
 File: ihcal_pulser.png Graphic file (type png)
 <use ihcal_pulser.png>
 Package pdftex.def Info: ihcal_pulser.png  used on input line 57.
@@ -1490,12 +1490,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--58
 [][]
  []
 
-<ohcal_led_signal.png, id=543, 1434.10782pt x 800.23969pt>
+<ohcal_led_signal.png, id=538, 1434.10782pt x 800.23969pt>
 File: ohcal_led_signal.png Graphic file (type png)
 <use ohcal_led_signal.png>
 Package pdftex.def Info: ohcal_led_signal.png  used on input line 62.
 (pdftex.def)             Requested size: 169.10808pt x 94.35175pt.
-<ohcal_led_energy.png, id=544, 1432.60219pt x 804.75656pt>
+<ohcal_led_energy.png, id=539, 1432.60219pt x 804.75656pt>
 File: ohcal_led_energy.png Graphic file (type png)
 <use ohcal_led_energy.png>
 Package pdftex.def Info: ohcal_led_energy.png  used on input line 63.
@@ -1515,7 +1515,7 @@ LaTeX Warning: Citation 'tower_slope_hcal' on page 13 undefined on input line 7
 
 [13 <./pulser_waveform.pdf> <./ihcal_pulser.png> <./ohcal_led_signal.png> <./oh
 cal_led_energy.png>] [14] [15] [16]
-Overfull \hbox (1.09312pt too wide) in paragraph at lines 116--118
+Overfull \hbox (1.09312pt too wide) in paragraph at lines 122--126
 \OT1/cmr/m/n/12 The sPHENIX Min-i-mum Bias De-tec-tor (MBD) is the other de-tec
 -tor pre-served from PHENIX,
  []
@@ -1533,136 +1533,136 @@ Chapter 4.
 ]
 Chapter 5.
 LaTeX Font Info:    Trying to load font information for U+dutchcal on input lin
-e 139.
+e 147.
 (/usr/share/texlive/texmf-dist/tex/latex/dutchcal/udutchcal.fd
 File: udutchcal.fd 2011/06/16 Fontinst v1.933 font definitions for U/dutchcal.
 )
 LaTeX Font Info:    Font shape `U/dutchcal/m/n' will be
-(Font)              scaled to size 12.0pt on input line 139.
+(Font)              scaled to size 12.0pt on input line 147.
 LaTeX Font Info:    Font shape `U/dutchcal/m/n' will be
-(Font)              scaled to size 8.0pt on input line 139.
+(Font)              scaled to size 8.0pt on input line 147.
 LaTeX Font Info:    Font shape `U/dutchcal/m/n' will be
-(Font)              scaled to size 6.0pt on input line 139.
+(Font)              scaled to size 6.0pt on input line 147.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 154.
+tance' requires LuaTeX. It will be ignored. on input line 162.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 154.
+stance' requires LuaTeX. It will be ignored. on input line 162.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 154.
+distance' requires LuaTeX. It will be ignored. on input line 162.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 161.
+tance' requires LuaTeX. It will be ignored. on input line 169.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 161.
+stance' requires LuaTeX. It will be ignored. on input line 169.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 161.
+distance' requires LuaTeX. It will be ignored. on input line 169.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 172.
+tance' requires LuaTeX. It will be ignored. on input line 180.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 172.
+stance' requires LuaTeX. It will be ignored. on input line 180.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 172.
+distance' requires LuaTeX. It will be ignored. on input line 180.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 179.
+tance' requires LuaTeX. It will be ignored. on input line 187.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 179.
+stance' requires LuaTeX. It will be ignored. on input line 187.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 179.
+distance' requires LuaTeX. It will be ignored. on input line 187.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 196.
+tance' requires LuaTeX. It will be ignored. on input line 204.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 196.
+stance' requires LuaTeX. It will be ignored. on input line 204.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 196.
+distance' requires LuaTeX. It will be ignored. on input line 204.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 203.
+tance' requires LuaTeX. It will be ignored. on input line 211.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 203.
+stance' requires LuaTeX. It will be ignored. on input line 211.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 203.
+distance' requires LuaTeX. It will be ignored. on input line 211.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 214.
+tance' requires LuaTeX. It will be ignored. on input line 222.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 214.
+stance' requires LuaTeX. It will be ignored. on input line 222.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 214.
+distance' requires LuaTeX. It will be ignored. on input line 222.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 221.
+tance' requires LuaTeX. It will be ignored. on input line 229.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 221.
+stance' requires LuaTeX. It will be ignored. on input line 229.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 221.
+distance' requires LuaTeX. It will be ignored. on input line 229.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 238.
+tance' requires LuaTeX. It will be ignored. on input line 246.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 238.
+stance' requires LuaTeX. It will be ignored. on input line 246.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 238.
+distance' requires LuaTeX. It will be ignored. on input line 246.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/node dis
-tance' requires LuaTeX. It will be ignored. on input line 245.
+tance' requires LuaTeX. It will be ignored. on input line 253.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/level di
-stance' requires LuaTeX. It will be ignored. on input line 245.
+stance' requires LuaTeX. It will be ignored. on input line 253.
 
 
 Package tikz-feynman Warning: The key you tried to use '/graph drawing/sibling 
-distance' requires LuaTeX. It will be ignored. on input line 245.
+distance' requires LuaTeX. It will be ignored. on input line 253.
 
 [22
 
@@ -1672,30 +1672,26 @@ Chapter 6.
 
 ]
 Chapter 7.
-[25
+) [25
+
+] [26
+
+
 
 ]
 Chapter 8.
-) [26
-
-] [27
-
-
+[27
 
 ]
 Chapter 9.
 [28
 
 ]
-Chapter 10.
-[29
-
-]
 \openout2 = `Corrections_and_Error.aux'.
 
  (./Corrections_and_Error.tex
 
-LaTeX Warning: Reference `jet_toy_model' on page 30 undefined on input line 3.
+LaTeX Warning: Reference `jet_toy_model' on page 29 undefined on input line 3.
 
 Missing character: There is no r in font rsfs10!
 
@@ -1703,53 +1699,53 @@ Package caption Warning: \label without proper reference on input line 71.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:eff_corr' on page 30 undefined on input line 8.
+LaTeX Warning: Reference `fig:eff_corr' on page 29 undefined on input line 8.
 
-[30
+[29
 
 ]
 
-LaTeX Warning: Reference `sect:HCAL_cons' on page 31 undefined on input line 28
+LaTeX Warning: Reference `sect:HCAL_cons' on page 30 undefined on input line 28
 .
 
 
-LaTeX Warning: Reference `sect:EMCAL_cons' on page 31 undefined on input line 2
+LaTeX Warning: Reference `sect:EMCAL_cons' on page 30 undefined on input line 2
 8.
 
-[31]
+[30]
 
 Package caption Warning: \label without proper reference on input line 71.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:eff_corr' on page 32 undefined on input line 65.
+LaTeX Warning: Reference `fig:eff_corr' on page 31 undefined on input line 65.
 
-<img/continuous_pair_corrections.png, id=676, 361.35pt x 361.35pt>
+<img/continuous_pair_corrections.png, id=666, 361.35pt x 361.35pt>
 File: img/continuous_pair_corrections.png Graphic file (type png)
 <use img/continuous_pair_corrections.png>
 Package pdftex.def Info: img/continuous_pair_corrections.png  used on input lin
 e 68.
 (pdftex.def)             Requested size: 361.34912pt x 361.34912pt.
-[32] [33 <./img/continuous_pair_corrections.png (PNG copy)>]) [34] [35
+[31] [32 <./img/continuous_pair_corrections.png (PNG copy)>]) [33] [34
 
 
 ]
-<ohcal_occup.pdf, id=705, 569.12625pt x 319.1925pt>
+<ohcal_occup.pdf, id=696, 569.12625pt x 319.1925pt>
 File: ohcal_occup.pdf Graphic file (type pdf)
 <use ohcal_occup.pdf>
 Package pdftex.def Info: ohcal_occup.pdf  used on input line 140.
 (pdftex.def)             Requested size: 375.80544pt x 210.77971pt.
 
 
-LaTeX Warning: Reference `fig:hcal_ped_single_wf' on page 36 undefined on input
+LaTeX Warning: Reference `fig:hcal_ped_single_wf' on page 35 undefined on input
  line 146.
 
 
-LaTeX Warning: Reference `fig:hcal_data_wf' on page 36 undefined on input line 
+LaTeX Warning: Reference `fig:hcal_data_wf' on page 35 undefined on input line 
 146.
 
-[36 <./ohcal_occup.pdf, page is rotated 90 degrees>] [37]
-Chapter 11.
+[35 <./ohcal_occup.pdf, page is rotated 90 degrees>] [36]
+Chapter 10.
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 163.
@@ -1772,6 +1768,10 @@ LaTeX Font Info:    Font shape `U/dutchcal/m/n' will be
 (Font)              scaled to size 20.74pt on input line 163.
 LaTeX Font Info:    Font shape `U/dutchcal/m/n' will be
 (Font)              scaled to size 17.28pt on input line 163.
+[37
+
+]
+Chapter 11.
 [38
 
 ]
@@ -1782,11 +1782,11 @@ Chapter 12.
 Chapter 13.
 [40
 
+] [41
+
 ]
 Chapter 14.
-[41
-
-] [42
+[42
 
 ]
 Chapter 15.
@@ -1796,13 +1796,9 @@ Chapter 15.
 Chapter 16.
 [44
 
-]
-Chapter 17.
-[45
+] [45
 
 ] [46
-
-] [47
 
 ]
 
@@ -1816,7 +1812,7 @@ Type  H <return>  for immediate help.
 l.199 \begin
             {appendices}
 ? 
-[48] [49
+[47] [48
 
 
 ]
@@ -1845,16 +1841,16 @@ l.6 	\begin{proof}{}
 l.27 		\begin{algo}[Product-Sum]
                                 
 ? 
-[50
+[49
 
 
-] [51]
-<product_sum_function.pdf, id=899, 569.12625pt x 290.08376pt>
+] [50]
+<product_sum_function.pdf, id=890, 569.12625pt x 290.08376pt>
 File: product_sum_function.pdf Graphic file (type pdf)
 <use product_sum_function.pdf>
 Package pdftex.def Info: product_sum_function.pdf  used on input line 82.
 (pdftex.def)             Requested size: 469.75502pt x 239.44598pt.
-) [52] [53 <./product_sum_function.pdf, page is rotated 90 degrees>]
+) [51] [52 <./product_sum_function.pdf, page is rotated 90 degrees>]
 (./Skadi_Thesis_Draft.aux (./Title_page.aux) (./Copyright_page.aux)
 (./Approval_page.aux) (./Abstract.aux) (./Acknowledgements.aux)
 (./Lit_Review.aux) (./Hardware_and_sim.aux) (./Corrections_and_Error.aux)
@@ -1865,29 +1861,20 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `Skadi_Thesis_Draft.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Skadi_Thesis_Draft.out':
-(rerunfilecheck)             Before: C1F360243BDE0A661571CDE5A6AAE77C;12146
-(rerunfilecheck)             After:  21EE5AB2CDB8626AAC8184642A9220AD;12146.
+Package rerunfilecheck Info: File `Skadi_Thesis_Draft.out' has not changed.
+(rerunfilecheck)             Checksum: E8227A208972A9E3E217AB18981EB7EE;11758.
 Package logreq Info: Writing requests to 'Skadi_Thesis_Draft.run.xml'.
 \openout1 = `Skadi_Thesis_Draft.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 39967 strings out of 478287
- 835865 string characters out of 5849289
- 2317737 words of memory out of 5000000
- 57243 multiletter control sequences out of 15000+600000
+ 39964 strings out of 478287
+ 835810 string characters out of 5849289
+ 2317716 words of memory out of 5000000
+ 57242 multiletter control sequences out of 15000+600000
  485799 words of font info for 92 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,21n,104p,1409b,1908s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 100i,21n,104p,1413b,1908s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texli
 ve/texmf-dist/fonts/type1/public/dutchcal/DutchCalReg.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-d
@@ -1909,10 +1896,10 @@ ublic/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pf
 b>
-Output written on Skadi_Thesis_Draft.pdf (65 pages, 6047075 bytes).
+Output written on Skadi_Thesis_Draft.pdf (64 pages, 6048004 bytes).
 PDF statistics:
- 1089 PDF objects out of 1200 (max. 8388607)
- 882 compressed objects within 9 object streams
- 198 named destinations out of 1000 (max. 500000)
- 653 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1080 PDF objects out of 1200 (max. 8388607)
+ 874 compressed objects within 9 object streams
+ 196 named destinations out of 1000 (max. 500000)
+ 645 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-%\documenclass[Skadi_Thesis_Draft.tex]{subfiles}
+%\documentclass[Skadi_Thesis_Draft.tex]{subfiles}
 %\begin{document}
 \section{Jets Definitions}
 The study of Quantum Chromodynamics in high energy collisions, such as those at the Relativistic Heavy Ion Collider or the Large Hadron Collider, is often carried out through investigation of the kinematics of jets.
@@ -37,8 +37,8 @@ Atkin discusses a number of algorithms that fall into two categories: Cone based
 	If the minimum is a $d_{i}$--called beam distance, then the protojet is promoted to a jet and then removed from the set of candidates. 
 	While these methods are IRC safe \cite{Dokshitzer1997}, they do suffer from a similar tuning problem as the cone methods, where misidentification of jets is possible depending on the $R$ value and $p_{T}$ cutoff, however, both of these parameters can be estimated well and have led to a standard prescription of the anti-$k_{T}$ method at a variety of $R$, usually prioritizing the $R=0.4$ jet as the best balance between exclusion and false positive jet particles. %this needs a citation
 	Of note for the analysis of this system, the $k_{T}$-type algorithms can produce different collections of jet particles and different shapes of the final state of the jet. 
-	The anti-$k_{T}$ method produces circular cones as a function of its metric, thus making it more directly comparable to the previous cone methods, while the $k_{T}$ mehtod will produce final states of various sizes.
-	This discrepancy proves useful in analysis of jet substructure observables, such as the primary family of observables--the Energy-Energy Correlatora--in this thesis, as it allows for a lund Plane analysis of the jet structure that combines anti-$k_T$ and $k_{T}$ techniques to improve veracity of the analysis method %cite something here about the Lund Plane
+	The anti-$k_{T}$ method produces circular cones as a function of its metric, thus making it more directly comparable to the previous cone methods, while the $k_{T}$ method will produce final states of various sizes.
+	This discrepancy proves useful in analysis of jet substructure observables, such as the primary family of observables--the Energy-Energy Correlators--in this thesis, as it allows for a Lund Plane analysis of the jet structure that combines anti-$k_T$ and $k_{T}$ techniques to improve veracity of the analysis method %cite something here about the Lund Plane
 
 
 \subsection{Quark and Gluon Jets}	
@@ -47,25 +47,25 @@ Atkin discusses a number of algorithms that fall into two categories: Cone based
 	Experimentally, there is significant interest in being able to discriminate quark and gluon jets in searches for Beyond Standard Model physics, searches for Dark Matter, in jet substructure analysis and in QGP physics. \cite{Gallicchio2011}\cite{Lima2017}\cite{Bhattacherjee2017}\cite{}. 
 	 To first order, the question of a theoretical definition is seemingly trivial. 
 	 In \textit{How to see the differences between quark and gluon jets}\cite{Fodor1990}, Fodor posits a model independent mechanism to distinguish between quark and gluon jets in $e^+ e^- \rightarrow jj+X $ events. 
-	 As one would expect, Fodor notes that the underlying assumption is that "jets are the footprints of the partons....Thus we should detemine the parotn ancestor of a jet" \cite{Fodor1990}. 
-	 From here, Fodor goes on to note signifigant distinuishing characteristics of the parton populations, noting the gluon has a stronger color charge and is of spin-1 as compared to the spin-half quark, and that this color charge is reflected in the comparative fragementations, inducing higher multilicity, softer hadron spectrum and a broader $p_T$ spectrum. 
+	 As one would expect, Fodor notes that the underlying assumption is that "jets are the footprints of the partons....Thus we should determine the parton ancestor of a jet" \cite{Fodor1990}. 
+	 From here, Fodor goes on to note significant distinguishing characteristics of the parton populations, noting the gluon has a stronger color charge and is of spin-1 as compared to the spin-half quark, and that this color charge is reflected in the comparative fragmentations, inducing higher multiplicity, softer hadron spectrum and a broader $p_T$ spectrum. 
 	 To this end, Fodor focuses on the three jet topology as the $e^+e^-$ dijet is exclusively populated by $q\bar{q}$ topology, however, in the three jet case, one introduces $e^+e^-\rightarrow q\bar{q}g$ type events. 
 	 Fodor notes that previous attempts to study this ratio have been hampered by a lack of consideration of jet energy and insufficient statistics. 
-	 Further, Fodor notes that the observable of intrest must supress the "'problematic' soft particle [contribution]" and be dependent on the energy of the jet.
+	 Further, Fodor notes that the observable of interest must suppress the "'problematic' soft particle [contribution]" and be dependent on the energy of the jet.
 
 	 \hspace{0.5 cm} It is here where we get our first inklings of the difficulties of the "parton-ancestor" jet definition, which while tempting suffers from a non-physicality at the point of hadronization wherein a color singlet or doublet state goes to a color-neutral state, hence problemitizing the simple "evolution" model of a jet. 
-	 One can not draw a Feynman diagram of a jet, nor will any combination of quark and gluon veritices ever lead to a final state with no free partons present. 
-	 This defficiency is even seen in the observational challenges noted by Fodor, where, the assigning of soft particles to one jet or the other becomes a problematic task for the analyzer and the particular jet algorithm and energy must be carefully tuned for the two styles. 
-	 It is these deficiencies that, while not insurmountable, would lead one to seek a more phenomonologially pleasing definition. 
+	 One can not draw a Feynman diagram of a jet, nor will any combination of quark and gluon vertexes ever lead to a final state with no free partons present. 
+	 This deficiency is even seen in the observational challenges noted by Fodor, where, the assigning of soft particles to one jet or the other becomes a problematic task for the analyzer and the particular jet algorithm and energy must be carefully tuned for the two styles. 
+	 It is these deficiencies that, while not insurmountable, would lead one to seek a more phenomenologically pleasing definition. 
 	 \subsubsection{Alternate Definition: Sample Populations}
 	\label{sect:alt_jet}
 	In their paper, \textit{An Operational Definition of Quark and Gluon Jets} \cite{Komiske2018} Kimiske, Metodiev and Thaler present a theoretical definition of jet flavor with an eye towards application at colliders. 
 	They aim to present a precise and practical definition of jet flavor at the hadron level, thus allowing for direct measurement from collider experiments rather than a measurement by proxy. 
-	While the gluon or quark jet is well defined at the level of the hard scattering, corresponding to an initiating parton of the primary vertex as was discussed above in sect. \ref{sect:stadard_jet} \cite{Jones1989} \cite{Fodor1990}, this definition has limited realizability in experimental searches, and relies on an event lableling that is not supported by Quantum Field Theory approaches \cite{Komiske2018}.
+	While the gluon or quark jet is well defined at the level of the hard scattering, corresponding to an initiating parton of the primary vertex as was discussed above in sect. \ref{sect:stadard_jet} \cite{Jones1989} \cite{Fodor1990}, this definition has limited realizability in experimental searches, and relies on an event labeling that is not supported by Quantum Field Theory approaches \cite{Komiske2018}.
 	The determination of relative populations of quark and gluon jets in a dijet sample is one of the primary tasks of this thesis and will be discussed at length in chapters \ref{ch:alphas} and \ref{ch:qgdiscr}. 
 
 	Kimiske et al.--from here referred to as KMT--set their work in the context of discerning the quark-gluon jet populations in samples rather than applying an event-by-event labeling scheme. 
-	KMT's work begins with the consdieration of two samples of data with jets at a fixed $p_{T}$ range with the condition that one be gluon enriched and one quark enriched. 
+	KMT's work begins with the consideration of two samples of data with jets at a fixed $p_{T}$ range with the condition that one be gluon enriched and one quark enriched. 
 	In the specific test case presented in KMT, a Z-jet sample (gluon enriched ) and a $\gamma$-jet sample (quark-enriched) are used. %check if this is true
 
 
@@ -73,4 +73,5 @@ Atkin discusses a number of algorithms that fall into two categories: Cone based
 \section{Jet Substructure Measurements}
 
 \section{N-Point Energy Correlator}
+	While the energy correlator has been well defined as an energy flow operator over the celestial block expansion in $e^+ e^-$ collisions, such a definition has escaped the case of hadron colliders, given the complications inherent in representations of the initial state of a collision of a composite object. 
 %\end{document}

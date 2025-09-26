@@ -117,12 +117,12 @@
 \chapter{Measuring the Energy Correlator}
 	\section{Discretization and Efficiency}
 	\include{Corrections_and_Error}
-	In the discussion of the energy correlator in chapter \ref{ch:ENC_th}, we had been working in an idealized regime where the measurement is able to be resolved to arbitary size, however, this is limited by the physical reality of the detector systems.
+	In the discussion of the energy correlator in chapter \ref{ch:ENC_th}, we had been working in an idealized regime where the measurement is able to be resolved to arbitrary size, however, this is limited by the physical reality of the detector systems.
 
-	In simulations and data, one finds that the practical reality of making measurements of the Energy correlator is severly hamstrung by the use of tower size objects rather than the truth particles that make up our idealized toy jets discussed in section \ref{sec:toy_jet_id}. 
+	In simulations and data, one finds that the practical reality of making measurements of the Energy correlator is severely hamstrung by the use of tower size objects rather than the truth particles that make up our idealized toy jets discussed in section \ref{sec:toy_jet_id}. 
 	To study the efficiency loss, one takes the identified truth jet objects from Monte Carlo Simulations (Pythia8 and Herwig for pp; sHIJING, EPOS4, AMPT for AuAu) and runs them through Geant simulations to model detector effects.
 	One then takes the initial truth jet, draws a circle that encloses the truth particles, and projects this out onto the calibrated tower response in each calorimeter, as well as runs an anti-k$_{\textrm{T}}$ jet identification algorithm to simulate jet reconstruction.
-	These three object types (truth jet, projective cone and reconstructed jet) are collected into sets and the measurement of the two- and three-point energy correlators is performed using the defintion in eq \ref{eq:calo_enc}
+	These three object types (truth jet, projective cone and reconstructed jet) are collected into sets and the measurement of the two- and three-point energy correlators is performed using the definition in eq \ref{eq:calo_enc}
 	\begin{equation}
 		\begin{split}
 			\left< E2C \left( R_L \right) \right> &= \frac{1}{N_\textrm{events}} \sum_{\textrm{events}} \frac{1}{N_\textrm{jet}} \sum_{N_{\textrm{jets}}} \sum_{i,j \in \textrm{Jet Consitutents}} \frac{E_{i} E_{j}}{E_\textrm{jets}^2} \delta \left( R_{ij} - R_L \right) \\  \\
@@ -132,18 +132,18 @@
 	\end{equation}
 	
 	\section{Whole Calorimeter Measurements}
-	While the Energy correlator is generally studied within a jet, one can make use of the whole calorimeter to compare the energy correlator across all angular seperations to characterize the underlying event. 
+	While the Energy correlator is generally studied within a jet, one can make use of the whole calorimeter to compare the energy correlator across all angular separations to characterize the underlying event. 
 	This induces a new computational issue of scale, where the number of calculations goes from $_{50}C_2=1225$ in the HCAL and $_{804} C_2=322,806$ in the EMCAL to $_{1536}C_2 \approx 2.4 \times 10^6$ and $_{24576}C_2 \approx 6 \times 10^8$ in the EMCAL.
-	However, since pp events have relatively low multiplicity in the calormeters as is seen in fig \ref{fig:calo_pp_multiplicity}, one reduces the computational load signifigantly by preprocessing the towers to remove all towers with energy below some threshold, functionally mirroring the zero-suppression procedure discussed in section \ref{sec:zero_supr}.
+	However, since pp events have relatively low multiplicity in the calorimeters as is seen in fig \ref{fig:calo_pp_multiplicity}, one reduces the computational load significantly by preprocessing the towers to remove all towers with energy below some threshold, functionally mirroring the zero-suppression procedure discussed in section \ref{sec:zero_supr}.
 
 	\begin{figure}
 		\includegraphics[width=0.8\textwidth]{ohcal_occup}%put a multiplicity figure in here to justify computational load decrease
-		\caption{Multiplicty in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations}
+		\caption{Multiplicity in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations}
 		\label{fig:calo_pp_multiplicity}
 	\end{figure}
-	One also notes that the whole event correlator on calorimeter towers is signfigantly sensitive to the electronic noise of the towers, given that any positive electronic noise would mimic a valid energy deposition. 
-	While the zero supression reduces the noise by a signifigant fraction at the hardware level, there are fluctations that pass this cut. 
-	Each event has an entry for every tower, and due to this electronic noise not having the same waveform shape in the ADC (see figs \ref{fig:hcal_ped_single_wf} and \ref{fig:hcal_data_wf} for a comparision of a pedestal waveform and that of a data event--there are a fraction of towers that have an apparent negative energy, which when summing the total energy of the calorimeters, approximately cancels out positive fluctionations on average. 
+	One also notes that the whole event correlator on calorimeter towers is significantly sensitive to the electronic noise of the towers, given that any positive electronic noise would mimic a valid energy deposition. 
+	While the zero suppression reduces the noise by a significant fraction at the hardware level, there are fluctuations that pass this cut. 
+	Each event has an entry for every tower, and due to this electronic noise not having the same waveform shape in the ADC (see figs \ref{fig:hcal_ped_single_wf} and \ref{fig:hcal_data_wf} for a comparison of a pedestal waveform and that of a data event--there are a fraction of towers that have an apparent negative energy, which when summing the total energy of the calorimeters, approximately cancels out positive fluctuations on average. 
 	However in our case, it is not so simple. 
 	Consider the following ansatz of a symmetric distribution $S=\{-2, -2, -1, -1, -1, -1, 1, 1, 1, 1, 2, 2\}$, then one considers the sum of  the product of pairs, being the numerator of the two point energy correlator would be the only way to have the noise contribution go to zero
 	\begin{equation}
@@ -158,13 +158,13 @@
 		\end{split}
 		\label{eq:simple_sym_eec}
 	\end{equation} 
-	Clearly a symmetric distribution alone does not garuntee a full cancellation. 
-	For a full proof of this for a gaussian distribution see appendix \ref{ch:symm_sample}.
+	Clearly a symmetric distribution alone does not guarantee a full cancellation. 
+	For a full proof of this for a Gaussian distribution see appendix \ref{ch:symm_sample}.
 \chapter{The Power of the ENC: $\alpha_s$ at the few GeV scale}
 \label{ch:alphas}
 	As had been shown recently at CMS \cite{CMS_alphaS}, taking the ratio of the two and (projective) three point energy correlator results in a distribution that scales directly with $\alpha_s(Q^2) R_L $ where $Q^2$ is the scale of the process under consideration. 
 	To make this calculation in the measurement presented in this thesis, we need to fix the hard scale relevant to the event. 
-	Here it is instructive to consider how we can adapt the methods utilized for a jet based energy correlator measurment to those for an event based model. 
+	Here it is instructive to consider how we can adapt the methods utilized for a jet based energy correlator measurement to those for an event based model. 
 	In the CMS analysis is \cite{CMS_alphaS}, they use a definition of the perturbrative scale and hard scale (where $x_L \equiv R_L$ in this thesis) as
 	\begin{equation}
 		\begin{split}
@@ -176,8 +176,8 @@
 \chapter{Event Classification} 
 \label{ch:qgdiscr}
 	The more standard method of measuring $\alpha_S$ requires that one be able to accurately determine the relative quark and gluon jet populations in the event samples \cite{LeBlanc2023}. 
-	While the discussion in chapter \ref{ch:alphas} allow for us to circumvent this issue in the immediate measurement of the strong force coulpling, it is still a useful quantity to measure for further studies on jet substructure measurements.
-	So while it is inapproriate to tag individual jets or events as a "quark" or "gluon" type event through the Energy Correlator, given that any individual jet may have fluctuations that overlap into 
+	While the discussion in chapter \ref{ch:alphas} allow for us to circumvent this issue in the immediate measurement of the strong force coupling, it is still a useful quantity to measure for further studies on jet substructure measurements.
+	So while it is inappropriate to tag individual jets or events as a "quark" or "gluon" type event through the Energy Correlator, given that any individual jet may have fluctuations that overlap into 
 \chapter{Comparison is the Theft of Joy: What does the LHC say, and how about STAR?}
 \chaptermark{LHC and STAR Results}
 \chapter{Entanglement and other Lofty Goals}

@@ -1,7 +1,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The sPHENIX detector. The Zero Degree Calorimeter is not picutred but is located further along the beam pipe.\relax }}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Top: Presistence Waveform. Bottom: Energy distribution averaged across $10^{5}$ events\relax }}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces The sPHENIX detector. The Zero Degree Calorimeter is not pictured but is located further along the beam pipe.\relax }}{10}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Top: Persistence Waveform. Bottom: Energy distribution averaged across $10^{5}$ events\relax }}{13}{figure.caption.13}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -12,10 +12,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces The continious and discretized calorimeters for phase space and discretization efficiency correction to smooth distribution and reduce bin width selection dependence\relax }}{33}{figure.caption.19}%
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Multiplicty in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations\relax }}{36}{figure.caption.20}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces The continuous and discretized calorimeters for phase space and discretization efficiency correction to smooth distribution and reduce bin width selection dependence\relax }}{32}{figure.caption.19}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Multiplicity in each Calorimeter (pending--have ohcal now) as percentage of towers with $E \geq 10$ MeV to filter out electronics fluctuations\relax }}{35}{figure.caption.20}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
@@ -23,4 +21,5 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Select plots of specific cases of the integrand in equation (\ref {eq:gamma_int}). The gamma function is always positive for positive real numbers, thus the integrand is always positive and will net a positive result when evaluated\relax }}{53}{figure.caption.23}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Select plots of specific cases of the integrand in equation (\ref {eq:gamma_int}). The gamma function is always positive for positive real numbers, thus the integrand is always positive and will net a positive result when evaluated\relax }}{52}{figure.caption.23}%

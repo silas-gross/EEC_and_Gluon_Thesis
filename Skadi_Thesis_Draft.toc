@@ -13,14 +13,14 @@
 \contentsline {section}{\numberline {1.3}N-Point Energy Correlator}{7}{section.1.3}%
 \contentsline {part}{I\hspace {1em}Hardware: The Detector and Simulations}{8}{part.1}%
 \contentsline {chapter}{\numberline {2}The sPHENIX detector}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Calorimetery}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Calorimetry}{10}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}Analog Digital Converters and Data Acquisition}{10}{subsection.2.1.1}%
 \contentsline {subsubsection}{ADC Zero Suppression}{12}{section*.12}%
 \contentsline {subsection}{\numberline {2.1.2}Hadronic Calorimeters}{12}{subsection.2.1.2}%
 \contentsline {subsubsection}{Calibration}{14}{section*.14}%
 \contentsline {subsection}{\numberline {2.1.3}Electromagnetic Calorimeter}{14}{subsection.2.1.3}%
 \contentsline {subsubsection}{Calibration}{14}{section*.15}%
-\contentsline {subsection}{\numberline {2.1.4}Zero Degree Calorimeter}{14}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.4}Zero Degree Calorimeter}{15}{subsection.2.1.4}%
 \contentsline {section}{\numberline {2.2}Tracking}{15}{section.2.2}%
 \contentsline {subsection}{\numberline {2.2.1}Time Projection Chamber}{16}{subsection.2.2.1}%
 \contentsline {subsection}{\numberline {2.2.2}TPC Outer Tracker}{16}{subsection.2.2.2}%
@@ -42,26 +42,25 @@
 \contentsline {chapter}{\numberline {6}Jets in Vacuum and the PDF}{24}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Jet Identification Algorithms}{24}{section.6.1}%
 \contentsline {chapter}{\numberline {7}So exactly how intelligent is AI}{25}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Proof Solving and Validation as Quality Control Mechanisms}{26}{chapter.8}%
-\contentsline {part}{III\hspace {1em}Experimental Output: The Main Event}{27}{part.3}%
-\contentsline {chapter}{\numberline {9}So is sPHENIX actually working?}{28}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Measuring the Energy Correlator}{29}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Discretization and Efficiency}{29}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Efficiency corrections}{30}{section.10.2}%
-\contentsline {section}{\numberline {10.3}Uncertainties}{34}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Statistical Uncertianity}{34}{subsection.10.3.1}%
-\contentsline {subsection}{\numberline {10.3.2}Systematic Uncertianity sources}{34}{subsection.10.3.2}%
-\contentsline {subsection}{\numberline {10.3.3}Binning Uncertianity}{34}{subsection.10.3.3}%
-\contentsline {subsection}{\numberline {10.3.4}Systematic Uncertianities}{34}{subsection.10.3.4}%
-\contentsline {section}{\numberline {10.4}Whole Calorimeter Measurements}{35}{section.10.4}%
-\contentsline {chapter}{\numberline {11}The Power of the ENC: $\alpha _s$ at the few GeV scale}{38}{chapter.11}%
-\contentsline {chapter}{\numberline {12}Event Classification}{39}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Comparison is the Theft of Joy: What does the LHC say, and how about STAR?}{40}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Entanglement and other Lofty Goals}{41}{chapter.14}%
-\contentsline {part}{IV\hspace {1em}Wrapping it all up}{42}{part.4}%
-\contentsline {chapter}{\numberline {15}Observable prospects for p+p in run 24, AuAu with run 24 and 25 and the EIC}{43}{chapter.15}%
-\contentsline {chapter}{\numberline {16}Remaining Questions}{44}{chapter.16}%
-\contentsline {chapter}{\numberline {17}Implementation and application for the remaining sPHENIX data}{45}{chapter.17}%
-\contentsline {part}{V\hspace {1em}Odds and Ends-Matter}{46}{part.5}%
-\contentsline {chapter}{Appendices}{49}{section*.22}%
-\contentsline {chapter}{\numberline {A}Proof that a Symmetric Energy Distribution fails to cancel in the Product-Sum}{50}{appendix.a.A}%
+\contentsline {part}{III\hspace {1em}Experimental Output: The Main Event}{26}{part.3}%
+\contentsline {chapter}{\numberline {8}So is sPHENIX actually working?}{27}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Measuring the Energy Correlator}{28}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Discretization and Efficiency}{28}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Efficiency corrections}{29}{section.9.2}%
+\contentsline {section}{\numberline {9.3}Uncertainties}{33}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Statistical Uncertianity}{33}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Systematic Uncertianity sources}{33}{subsection.9.3.2}%
+\contentsline {subsection}{\numberline {9.3.3}Binning Uncertianity}{33}{subsection.9.3.3}%
+\contentsline {subsection}{\numberline {9.3.4}Systematic Uncertainties}{33}{subsection.9.3.4}%
+\contentsline {section}{\numberline {9.4}Whole Calorimeter Measurements}{34}{section.9.4}%
+\contentsline {chapter}{\numberline {10}The Power of the ENC: $\alpha _s$ at the few GeV scale}{37}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Event Classification}{38}{chapter.11}%
+\contentsline {chapter}{\numberline {12}Comparison is the Theft of Joy: What does the LHC say, and how about STAR?}{39}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Entanglement and other Lofty Goals}{40}{chapter.13}%
+\contentsline {part}{IV\hspace {1em}Wrapping it all up}{41}{part.4}%
+\contentsline {chapter}{\numberline {14}Observable prospects for p+p in run 24, AuAu with run 24 and 25 and the EIC}{42}{chapter.14}%
+\contentsline {chapter}{\numberline {15}Remaining Questions}{43}{chapter.15}%
+\contentsline {chapter}{\numberline {16}Implementation and application for the remaining sPHENIX data}{44}{chapter.16}%
+\contentsline {part}{V\hspace {1em}Odds and Ends-Matter}{45}{part.5}%
+\contentsline {chapter}{Appendices}{48}{section*.22}%
+\contentsline {chapter}{\numberline {A}Proof that a Symmetric Energy Distribution fails to cancel in the Product-Sum}{49}{appendix.a.A}%
